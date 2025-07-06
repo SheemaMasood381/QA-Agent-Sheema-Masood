@@ -1,0 +1,159 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "target": "#job-description-input",
+        "value": "Looking for a 2-year experienced JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "target": "#save-job-description-btn"
+      }
+    ],
+    "expected_result": "Job description is saved and skill recommendations are displayed"
+  },
+  {
+    "title": "Select Skills from AI Recommendations",
+    "steps": [
+      {
+        "action": "click",
+        "target": "#skill-recommendation-list"
+      },
+      {
+        "action": "select",
+        "target": "#aws-skill-checkbox"
+      },
+      {
+        "action": "select",
+        "target": "#javascript-skill-checkbox"
+      }
+    ],
+    "expected_result": "Selected skills are displayed and skill list is updated"
+  },
+  {
+    "title": "Set Difficulty Level of Questions",
+    "steps": [
+      {
+        "action": "select",
+        "target": "#difficulty-level-select",
+        "value": "Moderate"
+      }
+    ],
+    "expected_result": "Difficulty level is set to Moderate"
+  },
+  {
+    "title": "Review and Customize Standard Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "#standard-questions-list"
+      },
+      {
+        "action": "check",
+        "target": "#notice-period-question-checkbox"
+      },
+      {
+        "action": "fill",
+        "target": "#notice-period-question-answer-input",
+        "value": "30 days"
+      }
+    ],
+    "expected_result": "Standard questions are displayed and preferred answer is set"
+  },
+  {
+    "title": "Review and Customize Role-Based Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "#role-based-questions-list"
+      },
+      {
+        "action": "check",
+        "target": "#aws-experience-question-checkbox"
+      },
+      {
+        "action": "fill",
+        "target": "#aws-experience-question-answer-input",
+        "value": "2 years"
+      }
+    ],
+    "expected_result": "Role-based questions are displayed and preferred answer is set"
+  },
+  {
+    "title": "Create Interview with AI Avatar (Advanced Plan)",
+    "steps": [
+      {
+        "action": "click",
+        "target": "#ai-avatar-select"
+      },
+      {
+        "action": "select",
+        "target": "#ai-avatar-option",
+        "value": "Avatar 1"
+      }
+    ],
+    "expected_result": "AI avatar is selected and lip syncing alignment is enabled"
+  },
+  {
+    "title": "Create Interview",
+    "steps": [
+      {
+        "action": "click",
+        "target": "#create-interview-btn"
+      }
+    ],
+    "expected_result": "Interview is created and unique public interview link is generated"
+  },
+  {
+    "title": "Candidate Video Interview Submission",
+    "steps": [
+      "Navigate to the job posting page with a public link",
+      "Click on the 'Responses' tab",
+      "Verify the candidate's video interview is listed",
+      "Click on the candidate's video interview",
+      "Verify the video recording, structured answers, scores, and resume are displayed"
+    ],
+    "expected_result": "The candidate's video interview details are displayed correctly"
+  },
+  {
+    "title": "Interview Screening and Scoring",
+    "steps": [
+      "Navigate to the 'Interview Screenings' section",
+      "Verify the candidate's interview score is displayed",
+      "Verify the candidate's communication score is displayed",
+      "Verify the AI-generated summary of the interview is displayed, including observations, positives, and negatives"
+    ],
+    "expected_result": "The candidate's interview scores and summary are displayed correctly"
+  },
+  {
+    "title": "R\u00e9sum\u00e9 Screening and Recommendation",
+    "steps": [
+      "Create an interview and upload multiple r\u00e9sum\u00e9s",
+      "Verify the AI commences the screening process",
+      "Verify the r\u00e9sum\u00e9 score is displayed for each candidate",
+      "Verify the AI recommendation for each candidate is displayed"
+    ],
+    "expected_result": "The AI provides a realistic assessment of the candidates' experience and recommends suitable profiles"
+  },
+  {
+    "title": "Candidate Advancement and Interview Link",
+    "steps": [
+      "Decide to proceed with a candidate based on the AI recommendation",
+      "Verify the option to send an interview link to the candidate",
+      "Verify the interview link is valid for 24 hours",
+      "Verify the candidate can submit their interview at their convenience"
+    ],
+    "expected_result": "The candidate can submit their interview successfully"
+  },
+  {
+    "title": "Initiating Interview Screening Process",
+    "steps": [
+      "Verify the candidate has submitted their interview",
+      "Initiate the interview screening process",
+      "Verify the summary of the interview is displayed, including scores and AI analysis"
+    ],
+    "expected_result": "The interview screening process is initiated successfully and the summary is displayed correctly"
+  }
+]

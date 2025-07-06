@@ -1,0 +1,212 @@
+[
+  {
+    "title": "### Create Interview - Job Description Input",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'fill', 'target': \"input[name='jobDescription']\", 'value': 'JavaScript developer with AWS experience'}",
+    "steps": [],
+    "expected_result": "** Job description is filled and AI is suggesting questions"
+  },
+  {
+    "title": "### Create Interview - Job Title Input",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'fill', 'target': \"input[name='jobTitle']\", 'value': '2-year experienced JavaScript developer'}",
+    "steps": [],
+    "expected_result": "** AI generates a complete job description"
+  },
+  {
+    "title": "### Create Interview - Enhanced JD Feature",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"button[aria-label='Enhanced JD Feature']\"}",
+    "steps": [],
+    "expected_result": "** AI prefills and edits the job description"
+  },
+  {
+    "title": "### Create Interview - Skill Recommendations",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'wait', 'target': 'text=Skill Recommendations'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'check', 'target': \"input[name='awsExperience']\"}",
+    "steps": [],
+    "expected_result": "** AI extracts key skills from job description and user can pick from suggested skills"
+  },
+  {
+    "title": "### Create Interview - Difficulty Level Selection",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'selectOption', 'target': \"select[name='difficultyLevel']\", 'option': 'Moderate'}",
+    "steps": [],
+    "expected_result": "** Difficulty level of questions is set"
+  },
+  {
+    "title": "### Create Interview - Company Name Input",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'fill', 'target': \"input[name='companyName']\", 'value': 'Test Company'}",
+    "steps": [],
+    "expected_result": "** Company name is filled and AI analyzes job description"
+  },
+  {
+    "title": "### Create Interview - Standard Questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'check', 'target': \"input[name='standardQuestion1']\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'check', 'target': \"input[name='standardQuestion2']\"}",
+    "steps": [],
+    "expected_result": "** Standard questions are populated and can be personalized"
+  },
+  {
+    "title": "### Create Interview - Role-Based Questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'check', 'target': \"input[name='roleBasedQuestion1']\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'check', 'target': \"input[name='roleBasedQuestion2']\"}",
+    "steps": [],
+    "expected_result": "** Role-based questions are generated with preferred answers"
+  },
+  {
+    "title": "### Create Interview - Create Option",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"button[aria-label='Create Interview']\"}",
+    "steps": [],
+    "expected_result": "** Interview is created with a unique public interview link"
+  },
+  {
+    "title": "### Test View Candidate Responses",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"link(text='Responses')\"}",
+    "steps": [],
+    "expected_result": "** Candidate responses are displayed with structured answers, video recordings, scores, and resumes"
+  },
+  {
+    "title": "### Test Interview Score",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"link(text='Interview Screenings')\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'getByText', 'target': 'Interview Score'}",
+    "steps": [],
+    "expected_result": "** The interview score is displayed"
+  },
+  {
+    "title": "### Test Communication Score",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"link(text='Interview Screenings')\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'getByText', 'target': 'Communication Score'}",
+    "steps": [],
+    "expected_result": "** The communication score is displayed"
+  },
+  {
+    "title": "### Test AI Analysis Summary",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"link(text='Interview Screenings')\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'getByText', 'target': 'Summary'}",
+    "steps": [],
+    "expected_result": "** The AI analysis summary is displayed with observations, positives, and negatives"
+  },
+  {
+    "title": "### Test Action Button",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"button(text='Select' or text='Reject')\"}",
+    "steps": [],
+    "expected_result": "** The candidate is either selected or rejected"
+  },
+  {
+    "title": "### Test Resume Screening",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"link(text='Resume Screening')\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'uploadFile', 'target': \"input[type='file']\", 'file': 'resume.pdf'}",
+    "steps": [],
+    "expected_result": "** The AI commences the screening process and assigns a resume score"
+  },
+  {
+    "title": "### Test AI Recommendation",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"link(text='Resume Screening')\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'getByText', 'target': 'Recommendation'}",
+    "steps": [],
+    "expected_result": "** The AI recommendation is displayed with a suitability score"
+  },
+  {
+    "title": "### Test Send Interview Link",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"button(text='Send Interview Link')\"}",
+    "steps": [],
+    "expected_result": "** The interview link is sent to the candidate and is valid for 24 hours"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      "Enter job description",
+      "Click Save to generate skill recommendations",
+      "Verify skill recommendations are displayed"
+    ]

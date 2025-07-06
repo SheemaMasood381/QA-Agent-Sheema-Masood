@@ -1,0 +1,148 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description in the provided text area",
+      "Click the 'Save' button",
+      "Verify that the AI suggests questions based on the job description"
+    ],
+    "expected_result": "The AI suggests relevant questions based on the job description"
+  },
+  {
+    "title": "Use Enhanced JD Feature",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job title (e.g. '2-year experienced JavaScript developer with AWS experience')",
+      "Click the 'Use Enhanced JD' button",
+      "Verify that the AI generates a complete job description"
+    ],
+    "expected_result": "The AI generates a complete job description based on the job title"
+  },
+  {
+    "title": "Edit and Save Job Description",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description in the provided text area",
+      "Edit the job description",
+      "Click the 'Save' button",
+      "Verify that the edited job description is saved"
+    ],
+    "expected_result": "The edited job description is saved successfully"
+  },
+  {
+    "title": "View and Select Skill Recommendations",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description in the provided text area",
+      "Click the 'Save' button",
+      "Verify that the AI suggests key skills based on the job description",
+      "Select one or more of the suggested skills"
+    ],
+    "expected_result": "The selected skills are saved and displayed"
+  },
+  {
+    "title": "Configure Question Difficulty Level",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description in the provided text area",
+      "Click the 'Save' button",
+      "Verify that the AI suggests questions based on the job description",
+      "Configure the difficulty level of the questions (e.g. 'Hard', 'Moderate')"
+    ],
+    "expected_result": "The difficulty level of the questions is configured successfully"
+  },
+  {
+    "title": "Create Interview with Standard and Role-Based Questions",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description in the provided text area",
+      "Click the 'Save' button",
+      "Verify that the AI suggests standard and role-based questions",
+      "Configure the questions as desired (e.g. personalize options, add preferred answers)"
+    ],
+    "expected_result": "The interview is created with the configured questions"
+  },
+  {
+    "title": "Create Interview with Unique Public Link",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description in the provided text area",
+      "Click the 'Save' button",
+      "Verify that the interview is created with a unique public link"
+    ],
+    "expected_result": "The interview is created with a unique public link"
+  },
+  {
+    "title": "Candidates Video Interview Submission",
+    "steps": [
+      "Visit the responses tab",
+      "Find the candidate's video interview response",
+      "Verify the structured answers and video recordings are available"
+    ],
+    "expected_result": "The candidate's video interview response is successfully submitted and viewable"
+  },
+  {
+    "title": "Interview Score and Communication Score",
+    "steps": [
+      "Visit the interview screenings section",
+      "Find the candidate's interview score and communication score",
+      "Verify the scores are displayed"
+    ],
+    "expected_result": "The candidate's interview score and communication score are displayed"
+  },
+  {
+    "title": "Comprehensive Interview Summary",
+    "steps": [
+      "Visit the interview screenings section",
+      "Find the comprehensive interview summary",
+      "Verify the summary includes observations, positives, and negatives"
+    ],
+    "expected_result": "The comprehensive interview summary is displayed with observations, positives, and negatives"
+  },
+  {
+    "title": "Action Button to Select or Reject Candidate",
+    "steps": [
+      "Visit the interview screenings section",
+      "Find the action button to select or reject the candidate",
+      "Verify the button is clickable"
+    ],
+    "expected_result": "The action button to select or reject the candidate is available and clickable"
+  },
+  {
+    "title": "R\u00e9sum\u00e9 Screening and AI Score",
+    "steps": [
+      "Create an interview and upload a set of r\u00e9sum\u00e9s",
+      "Verify the AI commences the screening process",
+      "Find the r\u00e9sum\u00e9 score assigned by the AI"
+    ],
+    "expected_result": "The AI assigns a r\u00e9sum\u00e9 score based on the candidate's skills and experience"
+  },
+  {
+    "title": "AI Recommendations for Next Stage",
+    "steps": [
+      "Visit the r\u00e9sum\u00e9 screening section",
+      "Find the AI's recommendation for the next stage",
+      "Verify the recommendation is based on the candidate's suitability for the job"
+    ],
+    "expected_result": "The AI provides a recommendation for the next stage based on the candidate's suitability for the job"
+  },
+  {
+    "title": "Sending Interview Link to Candidate",
+    "steps": [
+      "Decide to proceed with a candidate",
+      "Send the interview link to the candidate",
+      "Verify the link is valid for 24 hours"
+    ],
+    "expected_result": "The interview link is sent to the candidate and is valid for 24 hours"
+  },
+  {
+    "title": "Initiating Interview Screening Process",
+    "steps": [
+      "Wait for the candidate to submit their interview",
+      "Initiate the interview screening process",
+      "Verify the summary is available for review"
+    ],
+    "expected_result": "The interview screening process is initiated and the summary is available for review"
+  }
+]

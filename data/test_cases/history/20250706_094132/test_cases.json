@@ -1,0 +1,217 @@
+[
+  {
+    "title": "### Create Interview with Job Description",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'fill', 'target': \"input[name='jobDescription']\", 'value': '2-year experienced JavaScript developer with AWS experience'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': \"button[type='submit']\"}",
+    "steps": [],
+    "expected_result": "** AI suggests questions based on the job description"
+  },
+  {
+    "title": "### Verify Skill Recommendations",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'waitForSelector', 'target': 'div.skills-recommendations'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'assert', 'target': 'div.skills-recommendations', 'expected': 'Key skills extracted from the job description'}",
+    "steps": [],
+    "expected_result": "** Skill recommendations displayed"
+  },
+  {
+    "title": "### Select Standard Questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': 'div.standard-questions'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'assert', 'target': 'div.standard-questions', 'expected': 'Objective questions displayed'}",
+    "steps": [],
+    "expected_result": "** Standard questions displayed"
+  },
+  {
+    "title": "### Customize Question Options",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': 'div.question-option'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'fill', 'target': \"input[name='preferredAnswer']\", 'value': '30 days'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'assert', 'target': 'div.question-option', 'expected': 'Preferred answer saved'}",
+    "steps": [],
+    "expected_result": "** Preferred answer saved"
+  },
+  {
+    "title": "### Create Interview with Selected Questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"button[type='submit']\"}",
+    "steps": [],
+    "expected_result": "** Interview created successfully"
+  },
+  {
+    "title": "### Verify Public Interview Link",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'assert', 'target': 'div.public-interview-link', 'expected': 'Unique public interview link displayed'}",
+    "steps": [],
+    "expected_result": "** Public interview link displayed"
+  },
+  {
+    "title": "### Viewing candidate responses",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Navigate to the responses tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on a candidate's response",
+    "steps": [],
+    "expected_result": "** The candidate's structured answers, video recordings, scores, and resume are displayed"
+  },
+  {
+    "title": "### Viewing interview scores",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Navigate to the interview screenings section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on a candidate's interview",
+    "steps": [],
+    "expected_result": "** The candidate's interview score and communication score are displayed"
+  },
+  {
+    "title": "### Viewing AI analysis scores",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Navigate to the interview screenings section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on a candidate's interview",
+    "steps": [],
+    "expected_result": "** The AI analysis scores, including observations, positives, and negatives, are displayed"
+  },
+  {
+    "title": "### Selecting or rejecting a candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Navigate to the interview screenings section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on a candidate's interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Click the action button",
+    "steps": [],
+    "expected_result": "** The option to select or reject the candidate is available"
+  },
+  {
+    "title": "### Uploading resumes for screening",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Create an interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Upload multiple resumes",
+    "steps": [],
+    "expected_result": "** The resumes are uploaded successfully and the AI commences the screening process"
+  },
+  {
+    "title": "### Viewing resume screening results",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Navigate to the resume screening section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on a candidate's resume",
+    "steps": [],
+    "expected_result": "** The candidate's resume score and AI recommendation are displayed"
+  },
+  {
+    "title": "### Sending an interview link to a candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Navigate to the resume screening section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on a candidate's resume",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Click the 'Send Interview Link' button",
+    "steps": [],
+    "expected_result": "** The interview link is sent to the candidate and is valid for 24 hours"
+  },
+  {
+    "title": "### Viewing candidate interview submission",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Navigate to the responses tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on a candidate's response",
+    "steps": [],
+    "expected_result": "** The candidate's interview submission is displayed, including video recordings and scores"
+  }
+]

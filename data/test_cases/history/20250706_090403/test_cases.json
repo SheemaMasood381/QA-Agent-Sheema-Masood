@@ -1,0 +1,136 @@
+[
+  {
+    "title": "Create Interview - Enter Job Description",
+    "steps": [
+      {
+        "step": "Enter job description",
+        "input": "JavaScript developer with AWS experience"
+      },
+      {
+        "step": "Click Save"
+      }
+    ],
+    "expected_result": "Skill recommendations are displayed"
+  },
+  {
+    "title": "Create Interview - Select Skills",
+    "steps": [
+      {
+        "step": "Select skills from AI recommendations",
+        "input": [
+          "JavaScript",
+          "AWS"
+        ]
+      },
+      {
+        "step": "Add custom skill",
+        "input": "2 years of experience in AWS"
+      }
+    ],
+    "expected_result": "Skills are saved and difficulty level options are displayed"
+  },
+  {
+    "title": "Create Interview - Set Difficulty Level",
+    "steps": [
+      {
+        "step": "Select difficulty level",
+        "input": "Moderate"
+      }
+    ],
+    "expected_result": "Difficulty level is saved"
+  },
+  {
+    "title": "Create Interview - Review Questions",
+    "steps": [
+      {
+        "step": "Review standard questions",
+        "input": ""
+      },
+      {
+        "step": "Review role-based questions",
+        "input": ""
+      },
+      {
+        "step": "Edit a question",
+        "input": "What's the notice period?"
+      },
+      {
+        "step": "Set preferred answer",
+        "input": "30 days"
+      }
+    ],
+    "expected_result": "Questions are updated"
+  },
+  {
+    "title": "Create Interview - Create Interview",
+    "steps": [
+      {
+        "step": "Click Create Interview"
+      }
+    ],
+    "expected_result": "Unique public interview link is generated"
+  },
+  {
+    "title": "Create Interview - Advanced Plan - Select AI Avatar",
+    "steps": [
+      {
+        "step": "Select AI avatar",
+        "input": "Lip syncing avatar"
+      }
+    ],
+    "expected_result": "AI avatar is selected and lip syncing is enabled"
+  },
+  {
+    "title": "Test Candidate Video Interview",
+    "steps": [
+      "Navigate to the responses tab",
+      "Click on the candidate's video interview",
+      "Verify the candidate's skills versus scores are displayed"
+    ],
+    "expected_result": "The candidate's interview score and communication score are displayed"
+  },
+  {
+    "title": "Test Candidate Scoring Summary",
+    "steps": [
+      "Navigate to the interview screenings section",
+      "Click on the AI analyze scores section",
+      "Verify the comprehensive summary of the interview is displayed"
+    ],
+    "expected_result": "The summary includes observations, positives, and negatives, and an action button to select or reject the candidate"
+  },
+  {
+    "title": "Test Resume Screening",
+    "steps": [
+      "Navigate to the resume screening section",
+      "Upload multiple resumes",
+      "Verify the AI commences the screening process"
+    ],
+    "expected_result": "The AI evaluates candidates based on their skills and assigns a resume score"
+  },
+  {
+    "title": "Test Resume Score Recommendations",
+    "steps": [
+      "Navigate to the resume screening section",
+      "Verify the AI recommends suitable candidates based on the job description"
+    ],
+    "expected_result": "The AI recommends candidates with resumes that align with the job requirements"
+  },
+  {
+    "title": "Test Interview Invitation",
+    "steps": [
+      "Navigate to the resume screening section",
+      "Click on the 'Send interview link' button",
+      "Verify the candidate receives an interview link valid for 24 hours"
+    ],
+    "expected_result": "The candidate can submit their interview at their convenience"
+  },
+  {
+    "title": "Test Interview Screening Process",
+    "steps": [
+      "Navigate to the interview screening section",
+      "Verify the candidate's interview is displayed",
+      "Click on the 'Initiate interview screening' button"
+    ],
+    "expected_result": "The interview screening process is initiated, and the summary is displayed"
+  }
+]

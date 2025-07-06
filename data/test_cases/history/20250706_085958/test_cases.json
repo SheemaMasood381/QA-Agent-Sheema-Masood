@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a valid job description",
+      "Click the 'Next' button"
+    ],
+    "expected_result": "AI suggests questions based on the job description"
+  },
+  {
+    "title": "Generate Job Description using Enhanced JD Feature",
+    "steps": [
+      "Click the 'Use Enhanced JD' button",
+      "Enter a job title (e.g. 2-year experienced JavaScript developer with AWS experience)",
+      "Click the 'Generate' button"
+    ],
+    "expected_result": "AI generates a complete job description"
+  },
+  {
+    "title": "Edit and Save Job Description",
+    "steps": [
+      "Edit the generated job description",
+      "Click the 'Save' button"
+    ],
+    "expected_result": "Job description is saved and skill recommendations are displayed"
+  },
+  {
+    "title": "Select Skills from AI Recommendations",
+    "steps": [
+      "Select skills from the AI-recommended list",
+      "Add custom skills if necessary"
+    ],
+    "expected_result": "Selected skills are saved and used for interview questions and assessments"
+  },
+  {
+    "title": "Set Difficulty Level of Questions",
+    "steps": [
+      "Select the difficulty level of questions (e.g. hard, moderate)",
+      "Click the 'Next' button"
+    ],
+    "expected_result": "Difficulty level is saved and used for generating interview questions"
+  },
+  {
+    "title": "Create Interview with Standard and Role-Based Questions",
+    "steps": [
+      "Review and customize standard and role-based questions",
+      "Add or remove questions as necessary",
+      "Click the 'Create' button"
+    ],
+    "expected_result": "Interview is created with unique public interview link"
+  },
+  {
+    "title": "Verify Public Interview Link",
+    "steps": [
+      "Copy the public interview link",
+      "Paste the link in a new browser tab"
+    ],
+    "expected_result": "Public interview link is functional and displays the interview page"
+  },
+  {
+    "title": "View Candidate Responses",
+    "steps": [
+      "Visit the responses tab",
+      "Verify that structured answers and video recordings are displayed",
+      "Verify that scores and resumes are displayed"
+    ],
+    "expected_result": "The responses tab displays all candidate responses, including structured answers, video recordings, scores, and resumes."
+  },
+  {
+    "title": "View Interview Score and Communication Score",
+    "steps": [
+      "Visit the responses tab",
+      "Select a candidate's response",
+      "Verify that the interview score is displayed",
+      "Verify that the communication score is displayed"
+    ],
+    "expected_result": "The interview score and communication score are displayed for the selected candidate."
+  },
+  {
+    "title": "View AI Analysis and Interview Summary",
+    "steps": [
+      "Visit the responses tab",
+      "Select a candidate's response",
+      "Verify that the AI analysis is displayed",
+      "Verify that the interview summary is displayed, including observations, positives, and negatives"
+    ],
+    "expected_result": "The AI analysis and interview summary are displayed for the selected candidate, including observations, positives, and negatives."
+  },
+  {
+    "title": "Take Action on Candidate Response",
+    "steps": [
+      "Visit the responses tab",
+      "Select a candidate's response",
+      "Verify that the action button is displayed",
+      "Click the action button and select 'Select' or 'Reject'"
+    ],
+    "expected_result": "The action button is displayed, allowing the user to select or reject the candidate."
+  },
+  {
+    "title": "Upload Resumes for R\u00e9 Screening",
+    "steps": [
+      "Create an interview",
+      "Upload a set of resumes",
+      "Verify that the AI commences the screening process"
+    ],
+    "expected_result": "The AI initiates the screening process for the uploaded resumes."
+  },
+  {
+    "title": "View R\u00e9 Score and Recommendation",
+    "steps": [
+      "Visit the r\u00e9 screening section",
+      "Verify that the r\u00e9 score is displayed",
+      "Verify that the AI recommendation is displayed"
+    ],
+    "expected_result": "The r\u00e9 score and AI recommendation are displayed for each uploaded resume."
+  },
+  {
+    "title": "Advance or Reject Candidate based on R\u00e9 Score",
+    "steps": [
+      "Visit the r\u00e9 screening section",
+      "Select a candidate's resume",
+      "Verify that the option to advance or reject the candidate is displayed",
+      "Click the action button and select 'Advance' or 'Reject'"
+    ],
+    "expected_result": "The user can advance or reject the candidate based on the r\u00e9 score and AI recommendation."
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "step": "Enter job description",
+        "input": "JavaScript developer with AWS experience"
+      },
+      {
+        "step": "Click save job description"
+      },
+      {
+        "step": "Verify skill recommendations are displayed"
+      }
+    ],
+    "expected_result": "Skill recommendations are displayed based on the job description"
+  },
+  {
+    "title": "Select Skills and Difficulty Level",
+    "steps": [
+      {
+        "step": "Select skills from AI suggestions"
+      },
+      {
+        "step": "Add custom skills",
+        "input": "Two years of experience in AWS"
+      },
+      {
+        "step": "Select difficulty level",
+        "input": "Moderate"
+      }
+    ],
+    "expected_result": "Skills and difficulty level are saved successfully"
+  },
+  {
+    "title": "Review and Customize Questions",
+    "steps": [
+      {
+        "step": "Verify standard questions are displayed"
+      },
+      {
+        "step": "Personalize standard question options"
+      },
+      {
+        "step": "Review and customize role-based questions"
+      }
+    ],
+    "expected_result": "Questions are customized successfully"
+  },
+  {
+    "title": "Create Interview",
+    "steps": [
+      {
+        "step": "Click create interview"
+      }
+    ],
+    "expected_result": "Interview is created successfully and public interview link is displayed"
+  },
+  {
+    "title": "Verify Public Interview Link",
+    "steps": [
+      {
+        "step": "Verify public interview link is unique and valid"
+      }
+    ],
+    "expected_result": "Public interview link is valid and can be used as an application form link"
+  },
+  {
+    "title": "Advanced Plan: Select AI Avatar (Optional)",
+    "steps": [
+      {
+        "step": "Select AI avatar (for advanced plan users)"
+      }
+    ],
+    "expected_result": "AI avatar is selected successfully and lip syncing aligns with the script"
+  },
+  {
+    "title": "Verify Candidate Response Tab",
+    "steps": [
+      "Visit the public link",
+      "Go to the responses tab"
+    ],
+    "expected_result": "Candidate responses, including structured answers, video recordings, scores, and resumes are displayed"
+  },
+  {
+    "title": "Verify Interview Score and Communication Score",
+    "steps": [
+      "Select a candidate who has completed a video interview",
+      "Check the interview score and communication score"
+    ],
+    "expected_result": "The interview score and communication score are displayed correctly"
+  },
+  {
+    "title": "Verify AI Analyze Scores",
+    "steps": [
+      "Go to the interview screenings section",
+      "Check the AI analyze scores"
+    ],
+    "expected_result": "The AI analyze scores are displayed correctly"
+  },
+  {
+    "title": "Verify Comprehensive Summary",
+    "steps": [
+      "Check the comprehensive summary of the interview",
+      "Verify observations, positives, and negatives are noted"
+    ],
+    "expected_result": "The comprehensive summary is displayed correctly, including observations, positives, and negatives"
+  },
+  {
+    "title": "Verify Action Button",
+    "steps": [
+      "Check the action button",
+      "Verify it allows selecting or rejecting the candidate"
+    ],
+    "expected_result": "The action button is displayed correctly, allowing selection or rejection of the candidate"
+  },
+  {
+    "title": "Verify R\u00e9 Screening",
+    "steps": [
+      "Create an interview and upload r\u00e9sum\u00e9s",
+      "Check the AI screening process"
+    ],
+    "expected_result": "The AI conducts a comprehensive semantic analysis and assigns a r\u00e9 score correctly"
+  },
+  {
+    "title": "Verify R\u00e9 Score and Recommendation",
+    "steps": [
+      "Check the r\u00e9 score",
+      "Verify the AI recommends the profile for the next stage based on the r\u00e9 score and job description"
+    ],
+    "expected_result": "The r\u00e9 score is displayed correctly, and the AI recommendation is accurate based on the r\u00e9 score and job description"
+  },
+  {
+    "title": "Verify Interview Invitation",
+    "steps": [
+      "Decide to proceed with a candidate",
+      "Send an interview link to the candidate"
+    ],
+    "expected_result": "The interview link is sent successfully, and the candidate can submit their interview within 24 hours"
+  },
+  {
+    "title": "Verify Interview Screening Process",
+    "steps": [
+      "Initiate the interview screening process",
+      "Check the summary of the candidate's interview"
+    ],
+    "expected_result": "The interview screening process is initiated correctly, and the summary of the candidate's interview is displayed"
+  }
+]

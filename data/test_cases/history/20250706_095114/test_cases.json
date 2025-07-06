@@ -1,0 +1,252 @@
+[
+  {
+    "title": "### Create Interview: Job Description Input",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'navigate', 'target': 'https://example.com/interview-creation'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'type', 'target': '#job-description-input', 'value': '2-year experienced JavaScript developer with AWS experience'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'click', 'target': '#save-job-description-button'}",
+    "steps": [],
+    "expected_result": "** Job description is saved and skill recommendations are displayed"
+  },
+  {
+    "title": "### Create Interview: Enhanced JD Feature",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'navigate', 'target': 'https://example.com/interview-creation'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': '#enhanced-jd-feature-toggle'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'type', 'target': '#job-title-input', 'value': 'JavaScript developer with AWS experience'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "4. {'action': 'click', 'target': '#generate-jd-button'}",
+    "steps": [],
+    "expected_result": "** AI generates a complete job description"
+  },
+  {
+    "title": "### Create Interview: Skill Selection",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'navigate', 'target': 'https://example.com/interview-creation'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'select', 'target': '#skill-selectDropdown', 'option': 'JavaScript'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'select', 'target': '#skill-selectDropdown', 'option': 'AWS'}",
+    "steps": [],
+    "expected_result": "** Selected skills are displayed and interview questions are generated"
+  },
+  {
+    "title": "### Create Interview: Question Customization",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'navigate', 'target': 'https://example.com/interview-creation'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': '#standard-questions-section'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'click', 'target': '#question-1-edit-button'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "4. {'action': 'type', 'target': '#question-1-input', 'value': 'What is your experience with AWS?'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "5. {'action': 'click', 'target': '#question-1-save-button'}",
+    "steps": [],
+    "expected_result": "** Customized question is saved and displayed"
+  },
+  {
+    "title": "### Create Interview: Create Option",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'navigate', 'target': 'https://example.com/interview-creation'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': '#create-interview-button'}",
+    "steps": [],
+    "expected_result": "** Interview is created and unique public interview link is displayed"
+  },
+  {
+    "title": "### Verify candidate's interview score",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Go to the 'Responses' tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on the candidate's video interview response",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the interview score is displayed",
+    "steps": [],
+    "expected_result": "** The interview score is displayed"
+  },
+  {
+    "title": "### Verify candidate's communication score",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Go to the 'Responses' tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on the candidate's video interview response",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the communication score is displayed",
+    "steps": [],
+    "expected_result": "** The communication score is displayed"
+  },
+  {
+    "title": "### Verify AI analysis summary",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Go to the 'Responses' tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on the candidate's video interview response",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the AI analysis summary is displayed",
+    "steps": [],
+    "expected_result": "** The AI analysis summary is displayed, including observations, positives, and negatives"
+  },
+  {
+    "title": "### Verify action buttons",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Go to the 'Responses' tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on the candidate's video interview response",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the 'Select' and 'Reject' buttons are displayed",
+    "steps": [],
+    "expected_result": "** The 'Select' and 'Reject' buttons are displayed"
+  },
+  {
+    "title": "### Verify resume screening process",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Create an interview and upload multiple resumes",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify the AI commences the screening process",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the resume score is displayed for each candidate",
+    "steps": [],
+    "expected_result": "** The resume score is displayed for each candidate, indicating their suitability for the job"
+  },
+  {
+    "title": "### Verify AI recommendations",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Create an interview and upload multiple resumes",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify the AI provides a recommendation for each candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the recommendation is based on the candidate's skills and experience alignment with the job description",
+    "steps": [],
+    "expected_result": "** The AI provides a recommendation for each candidate, indicating whether they should be advanced to the next round"
+  },
+  {
+    "title": "### Verify interview invitation process",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Select a candidate to proceed to the next round",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify an interview link is sent to the candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the interview link is valid for 24 hours",
+    "steps": [],
+    "expected_result": "** The candidate receives an interview link that is valid for 24 hours"
+  }
+]

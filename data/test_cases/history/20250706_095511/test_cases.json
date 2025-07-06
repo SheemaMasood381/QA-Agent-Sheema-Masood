@@ -1,0 +1,217 @@
+[
+  {
+    "title": "### Create Interview with Job Description",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'selector': '#create-interview-button'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'fill', 'selector': '#job-description-input', 'value': 'JavaScript developer with AWS experience'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'click', 'selector': '#save-job-description-button'}",
+    "steps": [],
+    "expected_result": "** {'skillRecommendations': True, 'skillSuggestions': ['JavaScript', 'AWS', 'Development']}"
+  },
+  {
+    "title": "### Select Skills from Recommendations",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'selector': '#select-skill-button:nth-child(1)'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'selector': '#select-skill-button:nth-child(2)'}",
+    "steps": [],
+    "expected_result": "** {'selectedSkills': ['JavaScript', 'AWS']}"
+  },
+  {
+    "title": "### Configure Question Difficulty Level",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'select', 'selector': '#question-difficulty-select', 'option': 'Moderate'}",
+    "steps": [],
+    "expected_result": "** {'questionDifficultyLevel': 'Moderate'}"
+  },
+  {
+    "title": "### Add Standard Questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'selector': '#add-standard-question-button'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'fill', 'selector': '#standard-question-input', 'value': \"What's the notice period?\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'click', 'selector': '#save-standard-question-button'}",
+    "steps": [],
+    "expected_result": "** {'standardQuestions': [\"What's the notice period?\"]}"
+  },
+  {
+    "title": "### Add Role-Based Questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'selector': '#add-role-based-question-button'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'fill', 'selector': '#role-based-question-input', 'value': \"What's your experience with AWS?\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'click', 'selector': '#save-role-based-question-button'}",
+    "steps": [],
+    "expected_result": "** {'roleBasedQuestions': [\"What's your experience with AWS?\"]}"
+  },
+  {
+    "title": "### Create Interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'selector': '#create-interview-button'}",
+    "steps": [],
+    "expected_result": "** {'interviewCreated': True, 'publicInterviewLink': True}"
+  },
+  {
+    "title": "### View Candidate Responses",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'visit', 'target': '/responses'}",
+    "steps": [],
+    "expected_result": "** Candidate responses, including video recordings, scores, and resumes, are displayed"
+  },
+  {
+    "title": "### Verify Interview Score",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'visit', 'target': '/responses'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': 'specific candidate response'}",
+    "steps": [],
+    "expected_result": "** Interview score is displayed for the selected candidate"
+  },
+  {
+    "title": "### Verify Communication Score",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'visit', 'target': '/responses'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': 'specific candidate response'}",
+    "steps": [],
+    "expected_result": "** Communication score is displayed for the selected candidate"
+  },
+  {
+    "title": "### Verify AI Summary",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'visit', 'target': '/responses'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': 'specific candidate response'}",
+    "steps": [],
+    "expected_result": "** AI summary, including observations, positives, and negatives, is displayed for the selected candidate"
+  },
+  {
+    "title": "### Select or Reject Candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'visit', 'target': '/responses'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': 'specific candidate response'}",
+    "steps": [],
+    "expected_result": "** Action buttons to select or reject the candidate are displayed"
+  },
+  {
+    "title": "### Upload Resumes for Screening",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'visit', 'target': '/create-interview'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'upload', 'target': 'resume files'}",
+    "steps": [],
+    "expected_result": "** Resumes are successfully uploaded for screening"
+  },
+  {
+    "title": "### View AI Screening Results",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'visit', 'target': '/screening-results'}",
+    "steps": [],
+    "expected_result": "** AI screening results, including resume scores and recommendations, are displayed"
+  },
+  {
+    "title": "### Send Interview Link to Candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'visit', 'target': '/screening-results'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': 'specific candidate result'}",
+    "steps": [],
+    "expected_result": "** Interview link is sent to the candidate, valid for 24 hours"
+  },
+  {
+    "title": "### View Candidate Interview Submission",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'visit', 'target': '/responses'}",
+    "steps": [],
+    "expected_result": "** Candidate's interview submission is displayed, including video recording and scores"
+  }
+]

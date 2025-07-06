@@ -1,0 +1,180 @@
+[
+  {
+    "title": "Create Interview: Enter Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "target": "input[name='jobDescription']",
+        "value": "JavaScript developer with AWS experience"
+      }
+    ],
+    "expected_result": "AI suggests questions based on the job description"
+  },
+  {
+    "title": "Create Interview: Use Enhanced JD Feature",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button[data-test-id='enhanced-jd-feature']"
+      },
+      {
+        "action": "fill",
+        "target": "input[name='jobTitle']",
+        "value": "2-year experienced JavaScript developer with AWS experience"
+      }
+    ],
+    "expected_result": "AI generates a complete job description"
+  },
+  {
+    "title": "Create Interview: Save Job Description",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button[data-test-id='save-job-description']"
+      }
+    ],
+    "expected_result": "Skill recommendations are displayed"
+  },
+  {
+    "title": "Create Interview: Select Skills",
+    "steps": [
+      {
+        "action": "click",
+        "target": "checkbox[name='skills'][value='AWS']"
+      },
+      {
+        "action": "click",
+        "target": "checkbox[name='skills'][value='JavaScript']"
+      }
+    ],
+    "expected_result": "Selected skills are displayed"
+  },
+  {
+    "title": "Create Interview: Set Difficulty Level",
+    "steps": [
+      {
+        "action": "select",
+        "target": "select[name='difficultyLevel']",
+        "value": "moderate"
+      }
+    ],
+    "expected_result": "Difficulty level is set to moderate"
+  },
+  {
+    "title": "Create Interview: Standard Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button[data-test-id='add-standard-question']"
+      },
+      {
+        "action": "fill",
+        "target": "input[name='standardQuestion']",
+        "value": "What's the notice period?"
+      }
+    ],
+    "expected_result": "Standard question is added"
+  },
+  {
+    "title": "Create Interview: Role-Based Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button[data-test-id='add-role-based-question']"
+      },
+      {
+        "action": "fill",
+        "target": "input[name='roleBasedQuestion']",
+        "value": "How do you handle deployment with AWS?"
+      }
+    ],
+    "expected_result": "Role-based question is added"
+  },
+  {
+    "title": "Create Interview: Create Interview",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button[data-test-id='create-interview']"
+      }
+    ],
+    "expected_result": "Interview is created and unique public interview link is displayed"
+  },
+  {
+    "title": " Candidate Video Interview Response",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview response"
+    ],
+    "expected_result": "The candidate's structured answers, video recordings, scores, and resume are displayed"
+  },
+  {
+    "title": "View Interview Score and Communication Score",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview response",
+      "View the interview score and communication score"
+    ],
+    "expected_result": "The interview score and communication score are displayed"
+  },
+  {
+    "title": "View Comprehensive Summary of Interview",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview response",
+      "View the comprehensive summary of the interview"
+    ],
+    "expected_result": "The comprehensive summary includes observations, positives, and negatives"
+  },
+  {
+    "title": "Select or Reject Candidate",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview response",
+      "Click on the action button to select or reject the candidate"
+    ],
+    "expected_result": "The candidate is selected or rejected successfully"
+  },
+  {
+    "title": "R\u00e9 Screening - Create Interview and Upload R\u00e9sum\u00e9s",
+    "steps": [
+      "Create a new interview",
+      "Upload multiple r\u00e9sum\u00e9s"
+    ],
+    "expected_result": "The AI commences the screening process"
+  },
+  {
+    "title": "View R\u00e9 Score and AI Recommendation",
+    "steps": [
+      "Visit the r\u00e9 screening section",
+      "View the r\u00e9 score and AI recommendation for a candidate"
+    ],
+    "expected_result": "The r\u00e9 score and AI recommendation are displayed"
+  },
+  {
+    "title": "Decide to Reject or Advance Candidate",
+    "steps": [
+      "Visit the r\u00e9 screening section",
+      "View the r\u00e9 score and AI recommendation for a candidate",
+      "Decide to reject or advance the candidate"
+    ],
+    "expected_result": "The candidate is rejected or advanced to the next round successfully"
+  },
+  {
+    "title": "Send Interview Link to Candidate",
+    "steps": [
+      "Decide to advance a candidate",
+      "Send an interview link to the candidate"
+    ],
+    "expected_result": "The interview link is sent to the candidate successfully"
+  },
+  {
+    "title": "Review Interview Summary",
+    "steps": [
+      "Candidate submits their interview",
+      "Initiate the interview screening process",
+      "View the summary of the interview"
+    ],
+    "expected_result": "The interview summary is displayed with observations, positives, and negatives"
+  }
+]

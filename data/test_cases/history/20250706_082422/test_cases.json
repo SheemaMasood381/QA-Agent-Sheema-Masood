@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "target": "Job Description input field",
+        "data": "JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "target": "Save Job Description button"
+      },
+      {
+        "action": "wait_for",
+        "target": "Skill recommendations section"
+      }
+    ],
+    "expected_result": "Skill recommendations section is displayed with key skills extracted from the job description"
+  },
+  {
+    "title": "Select Skills and Difficulty Level",
+    "steps": [
+      {
+        "action": "select",
+        "target": "Skill checkbox (e.g. AWS experience)",
+        "data": "true"
+      },
+      {
+        "action": "select",
+        "target": "Difficulty level dropdown",
+        "data": "Moderate"
+      }
+    ],
+    "expected_result": "Selected skills and difficulty level are saved successfully"
+  },
+  {
+    "title": "View and Customize Interview Questions",
+    "steps": [
+      {
+        "action": "wait_for",
+        "target": "Interview questions section"
+      },
+      {
+        "action": "click",
+        "target": "Standard question (e.g. 'What's the notice period?')"
+      },
+      {
+        "action": "fill",
+        "target": "Preferred answer input field",
+        "data": "30 days"
+      }
+    ],
+    "expected_result": "Standard question with preferred answer is displayed and editable"
+  },
+  {
+    "title": "Create Interview with Selected Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Create Interview button"
+      }
+    ],
+    "expected_result": "Interview is created successfully with a unique public interview link"
+  },
+  {
+    "title": "Verify candidate's interview score and communication score",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview",
+      "Verify the interview score is displayed",
+      "Verify the communication score is displayed"
+    ],
+    "expected_result": "Interview score and communication score are displayed correctly"
+  },
+  {
+    "title": "Verify comprehensive summary of the interview",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview",
+      "Verify the comprehensive summary of the interview is displayed",
+      "Verify the summary includes observations, positives, and negatives"
+    ],
+    "expected_result": "Comprehensive summary of the interview is displayed correctly"
+  },
+  {
+    "title": "Verify action buttons to select or reject a candidate",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview",
+      "Verify the 'Select' and 'Reject' action buttons are displayed"
+    ],
+    "expected_result": "Action buttons to select or reject a candidate are displayed"
+  },
+  {
+    "title": "Verify r\u00e9 screening functionality",
+    "steps": [
+      "Create an interview and upload a set of r\u00e9sum\u00e9s",
+      "Verify the AI commences the screening process",
+      "Verify the r\u00e9 score is displayed for each candidate",
+      "Verify the system recommends profiles for the next stage based on suitability"
+    ],
+    "expected_result": "R\u00e9 screening functionality works as expected"
+  },
+  {
+    "title": "Verify AI recommendations",
+    "steps": [
+      "Upload a set of r\u00e9sum\u00e9s for r\u00e9 screening",
+      "Verify the AI recommends profiles for the next stage based on suitability",
+      "Verify the recommendation is based on skills and experience alignment with the job description"
+    ],
+    "expected_result": "AI recommendations are accurate and based on skills and experience alignment"
+  },
+  {
+    "title": "Verify interview link sending functionality",
+    "steps": [
+      "Decide to proceed with a candidate",
+      "Verify the option to send an interview link is available",
+      "Verify the interview link is sent to the candidate and can be submitted within 24 hours"
+    ],
+    "expected_result": "Interview link sending functionality works as expected"
+  }
+]

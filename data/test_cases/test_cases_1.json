@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "selector": "#jobDescriptionInput",
+        "value": "JavaScript Developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "selector": "#analyzeJobDescriptionButton"
+      },
+      {
+        "action": "waitForSelector",
+        "selector": "#skillRecommendations"
+      }
+    ],
+    "expected_result": "Skill recommendations are displayed"
+  },
+  {
+    "title": "Select Skills from Recommendations",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "#selectSkillButton"
+      },
+      {
+        "action": "selectOption",
+        "selector": "#skillSelect",
+        "option": "AWS"
+      },
+      {
+        "action": "click",
+        "selector": "#addSkillButton"
+      }
+    ],
+    "expected_result": "Selected skills are added to the interview"
+  },
+  {
+    "title": "Configure Question Difficulty",
+    "steps": [
+      {
+        "action": "selectOption",
+        "selector": "#difficultySelect",
+        "option": "Moderate"
+      }
+    ],
+    "expected_result": "Difficulty level is updated"
+  },
+  {
+    "title": "Add Company Name",
+    "steps": [
+      {
+        "action": "fill",
+        "selector": "#companyNameInput",
+        "value": "Test Company"
+      },
+      {
+        "action": "click",
+        "selector": "#saveCompanyButton"
+      }
+    ],
+    "expected_result": "Company name is saved"
+  },
+  {
+    "title": "Generate Standard Questions",
+    "steps": [
+      {
+        "action": "waitForSelector",
+        "selector": "#standardQuestions"
+      }
+    ],
+    "expected_result": "Standard questions are generated"
+  },
+  {
+    "title": "Customize Standard Question",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "#editStandardQuestionButton"
+      },
+      {
+        "action": "fill",
+        "selector": "#standardQuestionInput",
+        "value": "What's your current job title?"
+      },
+      {
+        "action": "click",
+        "selector": "#saveStandardQuestionButton"
+      }
+    ],
+    "expected_result": "Standard question is customized"
+  },
+  {
+    "title": "Generate Role-Based Questions",
+    "steps": [
+      {
+        "action": "waitForSelector",
+        "selector": "#roleBasedQuestions"
+      }
+    ],
+    "expected_result": "Role-based questions are generated"
+  },
+  {
+    "title": "Customize Role-Based Question",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "#editRoleBasedQuestionButton"
+      },
+      {
+        "action": "fill",
+        "selector": "#roleBasedQuestionInput",
+        "value": "How do you handle JavaScript errors?"
+      },
+      {
+        "action": "click",
+        "selector": "#saveRoleBasedQuestionButton"
+      }
+    ],
+    "expected_result": "Role-based question is customized"
+  },
+  {
+    "title": "Create Interview",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "#createInterviewButton"
+      }
+    ],
+    "expected_result": "Interview is created and public link is displayed"
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Create Interview - Validate Job Description Input",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "https://example.com/create-interview"
+      },
+      {
+        "action": "fill",
+        "target": "input[name=jobDescription]",
+        "value": "JavaScript developer with AWS experience"
+      }
+    ],
+    "expected_result": "Job description input field is populated"
+  },
+  {
+    "title": "Create Interview - Verify Enhanced JD Feature",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button[aria-label='Use Enhanced JD feature']"
+      },
+      {
+        "action": "wait_for_load_state",
+        "target": "networkidle2"
+      }
+    ],
+    "expected_result": "Enhanced JD feature is enabled and job description is generated"
+  },
+  {
+    "title": "Create Interview - Validate Skill Recommendations",
+    "steps": [
+      {
+        "action": "wait_for_selector",
+        "target": "div.skill-recommendations"
+      },
+      {
+        "action": "get_text",
+        "target": "div.skill-recommendations"
+      }
+    ],
+    "expected_result": "Skill recommendations are displayed based on job description"
+  },
+  {
+    "title": "Create Interview - Add Custom Skill",
+    "steps": [
+      {
+        "action": "fill",
+        "target": "input[name=add-skill]",
+        "value": "Cloud Computing"
+      },
+      {
+        "action": "click",
+        "target": "button[aria-label='Add Skill']"
+      }
+    ],
+    "expected_result": "Custom skill is added to the skill recommendations list"
+  },
+  {
+    "title": "Create Interview - Validate Question Categories",
+    "steps": [
+      {
+        "action": "wait_for_selector",
+        "target": "div.question-categories"
+      },
+      {
+        "action": "get_text",
+        "target": "div.question-categories"
+      }
+    ],
+    "expected_result": "Standard and Role-based question categories are displayed"
+  },
+  {
+    "title": "Create Interview - Validate Standard Questions",
+    "steps": [
+      {
+        "action": "wait_for_selector",
+        "target": "div.standard-questions"
+      },
+      {
+        "action": "get_text",
+        "target": "div.standard-questions"
+      }
+    ],
+    "expected_result": "Standard questions are displayed with options to personalize"
+  },
+  {
+    "title": "Create Interview - Validate Role-based Questions",
+    "steps": [
+      {
+        "action": "wait_for_selector",
+        "target": "div.role-based-questions"
+      },
+      {
+        "action": "get_text",
+        "target": "div.role-based-questions"
+      }
+    ],
+    "expected_result": "Role-based questions are displayed with options to personalize"
+  },
+  {
+    "title": "Create Interview - Validate Create Option",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button[aria-label='Create Interview']"
+      }
+    ],
+    "expected_result": "Interview is created successfully and unique public interview link is generated"
+  },
+  {
+    "title": " Candidate Video Interview Response",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response",
+      "Verify the video recording is available",
+      "Verify the structured answers are available",
+      "Verify the scores and resume are available"
+    ],
+    "expected_result": "The candidate's video interview response is displayed with scores, resume, and structured answers"
+  },
+  {
+    "title": "Candidate Interview Score and Communication Score",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response",
+      "Verify the interview score is displayed",
+      "Verify the communication score is displayed"
+    ],
+    "expected_result": "The interview score and communication score are displayed for the candidate"
+  },
+  {
+    "title": "AI Analysis and Summary",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response",
+      "Verify the AI analysis summary is displayed",
+      "Verify the summary includes observations, positives, and negatives"
+    ],
+    "expected_result": "The AI analysis summary is displayed with observations, positives, and negatives"
+  },
+  {
+    "title": "Select or Reject Candidate",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response",
+      "Verify the action buttons 'Select' and 'Reject' are available",
+      "Click on the 'Select' or 'Reject' button",
+      "Verify the candidate's status is updated accordingly"
+    ],
+    "expected_result": "The candidate's status is updated successfully"
+  },
+  {
+    "title": "Resume Screening",
+    "steps": [
+      "Create an interview and upload multiple resumes",
+      "Verify the AI commences the screening process",
+      "Verify the resume scores are displayed",
+      "Verify the AI recommendations are displayed"
+    ],
+    "expected_result": "The resume screening process is successful and AI recommendations are displayed"
+  },
+  {
+    "title": "Resume Score and Recommendation",
+    "steps": [
+      "Create an interview and upload multiple resumes",
+      "Verify the resume scores are displayed",
+      "Verify the AI recommendation is displayed for each resume",
+      "Verify the recommendation considers the candidate's experience and job requirements"
+    ],
+    "expected_result": "The resume score and AI recommendation are accurate and consider the candidate's experience and job requirements"
+  },
+  {
+    "title": "Send Interview Link to Candidate",
+    "steps": [
+      "Decide to proceed with a candidate",
+      "Verify the option to send an interview link is available",
+      "Send the interview link to the candidate",
+      "Verify the interview link is valid for 24 hours"
+    ],
+    "expected_result": "The interview link is sent to the candidate successfully and is valid for 24 hours"
+  },
+  {
+    "title": "Initiate Interview Screening Process",
+    "steps": [
+      "Candidate submits their interview",
+      "Verify the option to initiate the interview screening process is available",
+      "Initiate the interview screening process",
+      "Verify the AI analysis summary is displayed"
+    ],
+    "expected_result": "The interview screening process is initiated successfully and the AI analysis summary is displayed"
+  }
+]

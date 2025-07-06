@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Create Interview - Job Description Input",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a valid job title (e.g., JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Verify that the AI generates a complete job description"
+    ],
+    "expected_result": "The job description is generated and populated"
+  },
+  {
+    "title": "Create Interview - Edit Job Description",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a valid job title (e.g., JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Edit the generated job description"
+    ],
+    "expected_result": "The edited job description is saved successfully"
+  },
+  {
+    "title": "Create Interview - Skill Recommendations",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a valid job title (e.g., JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Verify that the AI extracts key skills from the job description"
+    ],
+    "expected_result": "The skill recommendations are displayed and accurate"
+  },
+  {
+    "title": "Create Interview - Add Custom Skills",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a valid job title (e.g., JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Add a custom skill (e.g., 2 years of experience in AWS)"
+    ],
+    "expected_result": "The custom skill is added successfully"
+  },
+  {
+    "title": "Create Interview - Set Difficulty Level",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a valid job title (e.g., JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Set the difficulty level of the questions (e.g., hard, moderate)"
+    ],
+    "expected_result": "The difficulty level is set successfully"
+  },
+  {
+    "title": "Create Interview - Suggest Questions",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a valid job title (e.g., JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Verify that the AI suggests relevant questions"
+    ],
+    "expected_result": "The suggested questions are displayed and relevant"
+  },
+  {
+    "title": "Create Interview - Standard Questions",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a valid job title (e.g., JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Verify that standard questions are displayed"
+    ],
+    "expected_result": "Standard questions are displayed and can be personalized"
+  },
+  {
+    "title": "Create Interview - Role-Based Questions",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a valid job title (e.g., JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Verify that role-based questions are displayed"
+    ],
+    "expected_result": "Role-based questions are displayed and can be modified"
+  },
+  {
+    "title": "Create Interview - Create Option",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a valid job title (e.g., JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Click on the create option"
+    ],
+    "expected_result": "The interview is created successfully and a unique public link is generated"
+  },
+  {
+    "title": "Create Interview - Advanced Plan - AI Avatar",
+    "steps": [
+      "Navigate to the create interview page (advanced plan)",
+      "Enter a valid job title (e.g., JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Select an AI avatar"
+    ],
+    "expected_result": "The AI avatar is selected and lip syncing aligns with the script"
+  },
+  {
+    "title": "Test Responses Tab",
+    "steps": [
+      "Visit the responses tab",
+      "Verify structured answers and video recordings are present",
+      "Verify scores and resumes are displayed"
+    ],
+    "expected_result": "Structured answers, video recordings, scores, and resumes are displayed in the responses tab"
+  },
+  {
+    "title": "Test Interview Scoring",
+    "steps": [
+      "Click on the interview screenings section",
+      "Verify AI analyzed scores are displayed"
+    ],
+    "expected_result": "AI analyzed scores are displayed in the interview screenings section"
+  },
+  {
+    "title": "Test Candidate Summary",
+    "steps": [
+      "Verify the comprehensive summary of the interview is displayed",
+      "Verify observations, positives, and negatives are noted"
+    ],
+    "expected_result": "Comprehensive summary of the interview with observations, positives, and negatives is displayed"
+  },
+  {
+    "title": "Test Action Button",
+    "steps": [
+      "Verify the action button to select or reject the candidate is present",
+      "Click on the action button and verify it works as expected"
+    ],
+    "expected_result": "Action button to select or reject the candidate is functional"
+  },
+  {
+    "title": "Test R\u00e9 Screening",
+    "steps": [
+      "Upload a set of r\u00e9sum\u00e9s against a job description",
+      "Verify the AI commences the screening process"
+    ],
+    "expected_result": "AI screening process is initiated after uploading r\u00e9sum\u00e9s against a job description"
+  },
+  {
+    "title": "Test R\u00e9 Score",
+    "steps": [
+      "Verify the r\u00e9 score is displayed",
+      "Verify the score is based on skills rather than r\u00e9sum\u00e9 similarity"
+    ],
+    "expected_result": "R\u00e9 score is displayed and based on skills rather than r\u00e9sum\u00e9 similarity"
+  },
+  {
+    "title": "Test AI Recommendations",
+    "steps": [
+      "Verify the AI provides a recommendation for the candidate",
+      "Verify the recommendation is based on the suitability of the resume"
+    ],
+    "expected_result": "AI provides a recommendation for the candidate based on the suitability of the resume"
+  },
+  {
+    "title": "Test Interview Link",
+    "steps": [
+      "Verify the interview link is sent to the candidate",
+      "Verify the interview link is valid for 24 hours"
+    ],
+    "expected_result": "Interview link is sent to the candidate and is valid for 24 hours"
+  }
+]

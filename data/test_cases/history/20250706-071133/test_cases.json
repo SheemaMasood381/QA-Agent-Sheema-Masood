@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "locator": "#job-description-input",
+        "value": "JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "locator": "#save-job-description-button"
+      },
+      {
+        "action": "wait_for_selector",
+        "locator": "#skill-recommendations"
+      }
+    ],
+    "expected_result": "Skill recommendations are displayed"
+  },
+  {
+    "title": "Select Skills and Difficulty Level",
+    "steps": [
+      {
+        "action": "click",
+        "locator": "#aws-skill-checkbox"
+      },
+      {
+        "action": "select_option",
+        "locator": "#difficulty-level-select",
+        "value": "Moderate"
+      }
+    ],
+    "expected_result": "AWS skill is selected and difficulty level is set to Moderate"
+  },
+  {
+    "title": "Configure Standard Questions",
+    "steps": [
+      {
+        "action": "click",
+        "locator": "#standard-questions-tab"
+      },
+      {
+        "action": "fill",
+        "locator": "#question-input",
+        "value": "What's the notice period?"
+      },
+      {
+        "action": "check",
+        "locator": "#preferred-answer-checkbox"
+      }
+    ],
+    "expected_result": "Standard question is configured with preferred answer"
+  },
+  {
+    "title": "Configure Role-Based Questions",
+    "steps": [
+      {
+        "action": "click",
+        "locator": "#role-based-questions-tab"
+      },
+      {
+        "action": "fill",
+        "locator": "#role-based-question-input",
+        "value": "What's your experience with AWS?"
+      },
+      {
+        "action": "check",
+        "locator": "#ideal-answer-checkbox"
+      }
+    ],
+    "expected_result": "Role-based question is configured with ideal answer"
+  },
+  {
+    "title": "Create Interview",
+    "steps": [
+      {
+        "action": "click",
+        "locator": "#create-interview-button"
+      },
+      {
+        "action": "wait_for_selector",
+        "locator": "#interview-link"
+      }
+    ],
+    "expected_result": "Interview is created with unique public link"
+  },
+  {
+    "title": "Viewing candidate responses in the responses tab",
+    "steps": [
+      "Navigate to the responses tab",
+      "Verify the candidate's video recording is playable",
+      "Verify the candidate's structured answers are displayed",
+      "Verify the candidate's scores and resume are displayed"
+    ],
+    "expected_result": "All candidate responses are displayed correctly"
+  },
+  {
+    "title": "Viewing interview scores and summary",
+    "steps": [
+      "Navigate to the interview screenings section",
+      "Verify the candidate's interview score is displayed",
+      "Verify the candidate's communication score is displayed",
+      "Verify the AI's comprehensive summary of the interview is displayed, including observations, positives, and negatives"
+    ],
+    "expected_result": "All interview scores and summary are displayed correctly"
+  },
+  {
+    "title": "Rejecting or selecting a candidate",
+    "steps": [
+      "Click the action button next to the candidate's response",
+      "Verify the option to select or reject the candidate is displayed",
+      "Click either the select or reject button",
+      "Verify the candidate's status is updated accordingly"
+    ],
+    "expected_result": "Candidate status is updated correctly"
+  },
+  {
+    "title": "Screening resumes with AI",
+    "steps": [
+      "Create an interview and upload multiple resumes",
+      "Verify the AI commences the screening process",
+      "Verify each resume is assigned a score based on skills and experience",
+      "Verify the AI recommends profiles for the next stage based on suitability"
+    ],
+    "expected_result": "AI screens resumes correctly and recommends profiles"
+  },
+  {
+    "title": " Sending interview link to candidate",
+    "steps": [
+      "Decide to proceed with a candidate",
+      "Verify the option to send an interview link is displayed",
+      "Click the send interview link button",
+      "Verify the link is valid for 24 hours"
+    ],
+    "expected_result": "Interview link is sent to candidate correctly"
+  }
+]

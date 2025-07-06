@@ -1,0 +1,7 @@
+[
+  {
+    "title": "View candidate responses",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response"
+    ]

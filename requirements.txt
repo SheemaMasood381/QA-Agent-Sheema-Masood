@@ -1,0 +1,13 @@
+langchain
+llama-index
+chromadb
+playwright
+python-dotenv
+pandas
+streamlit
+youtube-transcript-api
+faiss-cpu
+python-dotenv
+groq
+openai
+langchain-community

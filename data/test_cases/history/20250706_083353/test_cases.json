@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "selector": "input[name='jobDescription']",
+        "value": "JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit']"
+      }
+    ],
+    "expected_result": "Job description is saved and skill recommendations are displayed"
+  },
+  {
+    "title": "Skill Selection from Suggestions",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "div.skill-suggestion > ul > li:first-child"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='save']"
+      }
+    ],
+    "expected_result": "Selected skills are saved and displayed"
+  },
+  {
+    "title": "Select Question Difficulty Level",
+    "steps": [
+      {
+        "action": "select",
+        "selector": "select[name='difficultyLevel']",
+        "value": "Moderate"
+      }
+    ],
+    "expected_result": "Difficulty level is saved and displayed"
+  },
+  {
+    "title": "Add Standard Question",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "button[type='add-question']"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name='question']",
+        "value": "What's the notice period?"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='save-question']"
+      }
+    ],
+    "expected_result": "Standard question is added and displayed"
+  },
+  {
+    "title": "Create Interview with Customized Questions",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "button[type='create-interview']"
+      }
+    ],
+    "expected_result": "Interview is created and unique public interview link is displayed"
+  },
+  {
+    "title": "Verify Interview Link",
+    "steps": [
+      {
+        "action": "get",
+        "selector": "a.interview-link"
+      }
+    ],
+    "expected_result": "Unique public interview link is displayed"
+  },
+  {
+    "title": "Advance Plan - Select AI Avatar",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "div.advance-plan > button[type='select-ai-avatar']"
+      },
+      {
+        "action": "select",
+        "selector": "select[name='ai-avatar']",
+        "value": "Default Avatar"
+      }
+    ],
+    "expected_result": "AI avatar is selected and lip syncing aligns with the script"
+  },
+  {
+    "title": "Verify candidate's interview score and communication score",
+    "steps": [
+      "Navigate to the responses tab",
+      "Click on the candidate's video interview",
+      "Verify the interview score and communication score are displayed"
+    ],
+    "expected_result": "The interview score and communication score are correctly displayed"
+  },
+  {
+    "title": "Verify AI-generated summary of the interview",
+    "steps": [
+      "Navigate to the responses tab",
+      "Click on the candidate's video interview",
+      "Verify the AI-generated summary is displayed, including observations, positives, and negatives"
+    ],
+    "expected_result": "The AI-generated summary is correctly displayed"
+  },
+  {
+    "title": "Verify action buttons to select or reject the candidate",
+    "steps": [
+      "Navigate to the responses tab",
+      "Click on the candidate's video interview",
+      "Verify the 'Select' and 'Reject' action buttons are displayed"
+    ],
+    "expected_result": "The 'Select' and 'Reject' action buttons are correctly displayed"
+  },
+  {
+    "title": "Verify r\u00e9sum\u00e9 screening process",
+    "steps": [
+      "Create an interview and upload r\u00e9sum\u00e9s",
+      "Verify the AI commences the screening process",
+      "Verify the r\u00e9sum\u00e9 score is assigned based on skills and experience"
+    ],
+    "expected_result": "The r\u00e9sum\u00e9 screening process is correctly initiated and the r\u00e9sum\u00e9 score is assigned"
+  },
+  {
+    "title": "Verify AI recommendations for r\u00e9sum\u00e9 screening",
+    "steps": [
+      "Verify the AI recommendations are displayed for each r\u00e9sum\u00e9",
+      "Verify the recommendation is based on the suitability of the r\u00e9sum\u00e9 for the job description"
+    ],
+    "expected_result": "The AI recommendations are correctly displayed and based on the suitability of the r\u00e9sum\u00e9 for the job description"
+  },
+  {
+    "title": "Verify sending interview link to candidate",
+    "steps": [
+      "Decide to proceed with a candidate",
+      "Verify the option to send an interview link is available",
+      "Verify the interview link is sent to the candidate and is valid for 24 hours"
+    ],
+    "expected_result": "The interview link is correctly sent to the candidate and is valid for 24 hours"
+  }
+]

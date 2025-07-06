@@ -1,0 +1,151 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "target": "job description input field",
+        "value": "JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "target": "Save job description button"
+      }
+    ],
+    "expected_result": "Skill recommendations are displayed"
+  },
+  {
+    "title": "Edit Job Description using Enhanced JD Feature",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Use enhanced JD feature button"
+      },
+      {
+        "action": "fill",
+        "target": "Job title input field",
+        "value": "2-year experienced JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "target": "Generate job description button"
+      }
+    ],
+    "expected_result": "Complete job description is generated and displayed"
+  },
+  {
+    "title": "Choose Relevant Skills from AI Suggestions",
+    "steps": [
+      {
+        "action": "review",
+        "target": "Skill recommendations"
+      },
+      {
+        "action": "select",
+        "target": "Required skills (e.g., AWS experience)"
+      }
+    ],
+    "expected_result": "Selected skills are displayed"
+  },
+  {
+    "title": "Set Difficulty Level of Questions",
+    "steps": [
+      {
+        "action": "select",
+        "target": "Difficulty level dropdown (e.g., hard, moderate)"
+      }
+    ],
+    "expected_result": "Difficulty level is set"
+  },
+  {
+    "title": "Customize Standard Questions",
+    "steps": [
+      {
+        "action": "review",
+        "target": "Standard questions"
+      },
+      {
+        "action": "edit",
+        "target": "Question options (e.g., preferred answer)"
+      }
+    ],
+    "expected_result": "Standard questions are customized"
+  },
+  {
+    "title": "Create Interview with Role-Based Questions",
+    "steps": [
+      {
+        "action": "review",
+        "target": "Role-based questions"
+      },
+      {
+        "action": "edit",
+        "target": "Question and ideal answer"
+      }
+    ],
+    "expected_result": "Role-based questions are created"
+  },
+  {
+    "title": "Create Interview and Generate Public Interview Link",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Create interview button"
+      }
+    ],
+    "expected_result": "Unique public interview link is generated and displayed"
+  },
+  {
+    "title": "Verify Candidate's Interview Score and Communication Score",
+    "steps": [
+      "Navigate to the responses tab",
+      "Find the candidate who has completed a video interview",
+      "Verify the interview score and communication score are displayed"
+    ],
+    "expected_result": "Interview score and communication score are correctly displayed"
+  },
+  {
+    "title": "Verify AI Summary of the Interview",
+    "steps": [
+      "Navigate to the responses tab",
+      "Find the candidate who has completed a video interview",
+      "Verify the AI summary is displayed, including observations, positives, and negatives"
+    ],
+    "expected_result": "AI summary is correctly displayed with observations, positives, and negatives"
+  },
+  {
+    "title": "Verify Action Button to Select or Reject Candidate",
+    "steps": [
+      "Navigate to the responses tab",
+      "Find the candidate who has completed a video interview",
+      "Verify the action button to select or reject the candidate is displayed"
+    ],
+    "expected_result": "Action button to select or reject the candidate is correctly displayed"
+  },
+  {
+    "title": "Verify R\u00e9 Screening Process",
+    "steps": [
+      "Create an interview and upload multiple r\u00e9sum\u00e9s",
+      "Verify the AI commences the screening process",
+      "Verify the system conducts a comprehensive semantic analysis and assigns a r\u00e9 score"
+    ],
+    "expected_result": "R\u00e9 screening process is correctly initiated and r\u00e9 score is assigned"
+  },
+  {
+    "title": "Verify AI Recommendation for R\u00e9 Screening",
+    "steps": [
+      "Verify the AI recommendation is displayed for each candidate",
+      "Verify the recommendation considers the suitability of the resume and job requirements"
+    ],
+    "expected_result": "AI recommendation is correctly displayed and considers resume suitability and job requirements"
+  },
+  {
+    "title": "Verify Sending Interview Link to Candidates",
+    "steps": [
+      "Decide to proceed with a candidate",
+      "Verify the option to send an interview link to the candidate is available",
+      "Verify the interview link is valid for 24 hours"
+    ],
+    "expected_result": "Interview link is correctly sent to the candidate and is valid for 24 hours"
+  }
+]

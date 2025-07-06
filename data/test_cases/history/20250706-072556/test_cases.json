@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "step": "Visit the create interview page",
+        "expected_result": "The page should be loaded successfully"
+      },
+      {
+        "step": "Enter a job description",
+        "input": "JavaScript developer with AWS experience",
+        "expected_result": "The AI should suggest questions based on the job description"
+      },
+      {
+        "step": "Verify the suggested questions",
+        "expected_result": "The questions should be relevant to the job description"
+      }
+    ]
+  },
+  {
+    "title": "Use Enhanced JD Feature",
+    "steps": [
+      {
+        "step": "Enter a job title",
+        "input": "2-year experienced JavaScript developer with AWS experience",
+        "expected_result": "The AI should generate a complete job description"
+      },
+      {
+        "step": "Verify the generated job description",
+        "expected_result": "The job description should be accurate and relevant to the job title"
+      }
+    ]
+  },
+  {
+    "title": "Select Skills from AI Suggestions",
+    "steps": [
+      {
+        "step": "Save the job description",
+        "expected_result": "Skill recommendations should be displayed"
+      },
+      {
+        "step": "Select skills from AI suggestions",
+        "input": [
+          "AWS",
+          "JavaScript"
+        ],
+        "expected_result": "The selected skills should be displayed"
+      }
+    ]
+  },
+  {
+    "title": "Customize Standard Questions",
+    "steps": [
+      {
+        "step": "Click on a standard question",
+        "expected_result": "The question should be editable"
+      },
+      {
+        "step": "Edit a standard question",
+        "input": "What's the notice period?",
+        "expected_result": "The edited question should be saved successfully"
+      }
+    ]
+  },
+  {
+    "title": "Create Role-Based Questions",
+    "steps": [
+      {
+        "step": "Click on the role-based questions tab",
+        "expected_result": "The role-based questions should be displayed"
+      },
+      {
+        "step": "Edit a role-based question",
+        "input": "What's your experience with AWS?",
+        "expected_result": "The edited question should be saved successfully"
+      }
+    ]
+  },
+  {
+    "title": "Create Interview",
+    "steps": [
+      {
+        "step": "Click on the create option",
+        "expected_result": "The interview should be created successfully"
+      },
+      {
+        "step": "Verify the unique public interview link",
+        "expected_result": "The link should be displayed and functional"
+      }
+    ]
+  },
+  {
+    "title": "Test candidate video interview submission",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview response"
+    ],
+    "expected_result": "The candidate's video interview response is displayed with scores and resume"
+  },
+  {
+    "title": "Test interview score display",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview response"
+    ],
+    "expected_result": "The candidate's interview score is displayed"
+  },
+  {
+    "title": "Test communication score display",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview response"
+    ],
+    "expected_result": "The candidate's communication score is displayed"
+  },
+  {
+    "title": "Test AI analysis scoring",
+    "steps": [
+      "Visit the interview screenings section",
+      "Select a candidate's video interview response"
+    ],
+    "expected_result": "The AI analysis scores are displayed for the selected candidate"
+  },
+  {
+    "title": "Test candidate r\u00e9 screening",
+    "steps": [
+      "Create an interview and upload multiple r\u00e9sum\u00e9s",
+      "Submit the r\u00e9sum\u00e9s for screening"
+    ],
+    "expected_result": "The AI conducts a comprehensive semantic analysis and assigns a r\u00e9 score for each candidate"
+  },
+  {
+    "title": "Test r\u00e9 score display",
+    "steps": [
+      "Visit the r\u00e9 screening results",
+      "Select a candidate's r\u00e9sum\u00e9"
+    ],
+    "expected_result": "The candidate's r\u00e9 score is displayed along with the AI recommendation"
+  },
+  {
+    "title": "Test AI recommendation logic",
+    "steps": [
+      "Visit the r\u00e9 screening results",
+      "Select a candidate's r\u00e9sum\u00e9 with a high score but not recommended by the AI"
+    ],
+    "expected_result": "The AI recommendation logic is correctly applied, considering the candidate's overall experience in relation to the job description"
+  },
+  {
+    "title": "Test interview link sending",
+    "steps": [
+      "Visit the r\u00e9 screening results",
+      "Select a candidate's r\u00e9sum\u00e9 and decide to proceed",
+      "Send an interview link to the candidate"
+    ],
+    "expected_result": "The interview link is sent to the candidate and is valid for 24 hours"
+  },
+  {
+    "title": "Test interview submission and review",
+    "steps": [
+      "Wait for the candidate to submit their interview",
+      "Visit the responses tab",
+      "Click on the candidate's interview response"
+    ],
+    "expected_result": "The candidate's interview response is displayed with scores and resume, and the AI analysis summary is available"
+  }
+]

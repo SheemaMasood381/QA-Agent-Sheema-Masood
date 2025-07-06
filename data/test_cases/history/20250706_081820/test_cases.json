@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "Enter job description",
+        "input": {
+          "jobDescription": "JavaScript developer with 2 years of experience and AWS knowledge"
+        }
+      },
+      {
+        "action": "Click on Save Job Description",
+        "wait_for": "networkidle2"
+      }
+    ],
+    "expected_result": "Skill recommendations are displayed"
+  },
+  {
+    "title": "Select Skills from AI Recommendations",
+    "steps": [
+      {
+        "action": "Select skills from AI recommendations",
+        "input": {
+          "skills": [
+            "JavaScript",
+            "AWS"
+          ]
+        }
+      }
+    ],
+    "expected_result": "Selected skills are displayed"
+  },
+  {
+    "title": "Set Difficulty Level of Questions",
+    "steps": [
+      {
+        "action": "Select difficulty level of questions",
+        "input": {
+          "difficulty": "Moderate"
+        }
+      }
+    ],
+    "expected_result": "Difficulty level is set to Moderate"
+  },
+  {
+    "title": "View Standard and Role-Based Questions",
+    "steps": [
+      {
+        "action": "View standard and role-based questions",
+        "wait_for": "networkidle2"
+      }
+    ],
+    "expected_result": "Standard and role-based questions are displayed"
+  },
+  {
+    "title": "Customize Standard Questions",
+    "steps": [
+      {
+        "action": "Edit standard question",
+        "input": {
+          "question": "What's the notice period?",
+          "preferredAnswer": "2 weeks"
+        }
+      }
+    ],
+    "expected_result": "Standard question is customized"
+  },
+  {
+    "title": "Create Interview",
+    "steps": [
+      {
+        "action": "Click on Create Interview",
+        "wait_for": "networkidle2"
+      }
+    ],
+    "expected_result": "Interview is created and unique public interview link is displayed"
+  },
+  {
+    "title": "Advanced Plan: Select AI Avatar",
+    "steps": [
+      {
+        "action": "Select AI avatar",
+        "input": {
+          "avatar": "AI Avatar 1"
+        }
+      }
+    ],
+    "expected_result": "AI avatar is selected"
+  },
+  {
+    "title": "View Candidate Responses",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response"
+    ],
+    "expected_result": "Fully view structured answers, video recordings, scores, and resumes for the candidate"
+  },
+  {
+    "title": "Verify Interview Score",
+    "steps": [
+      "Visit the interview screenings section",
+      "Click on the candidate's interview"
+    ],
+    "expected_result": "Display the candidate's interview score"
+  },
+  {
+    "title": "Verify Communication Score",
+    "steps": [
+      "Visit the interview screenings section",
+      "Click on the candidate's interview"
+    ],
+    "expected_result": "Display the candidate's communication score"
+  },
+  {
+    "title": "View AI Summary",
+    "steps": [
+      "Visit the interview screenings section",
+      "Click on the candidate's interview"
+    ],
+    "expected_result": "Display a comprehensive summary of the interview, including observations, positives, and negatives"
+  },
+  {
+    "title": "Reject or Select Candidate",
+    "steps": [
+      "Visit the interview screenings section",
+      "Click on the candidate's interview",
+      "Click on the action button"
+    ],
+    "expected_result": "Option to select or reject the candidate appears"
+  },
+  {
+    "title": "Resume Screening",
+    "steps": [
+      "Create an interview",
+      "Upload resumes",
+      "Submit for AI screening"
+    ],
+    "expected_result": "AI conducts semantic analysis and assigns a resume score"
+  },
+  {
+    "title": "View AI Recommendation",
+    "steps": [
+      "View the resume screening results",
+      "Check the AI recommendation for the candidate"
+    ],
+    "expected_result": "Display the AI's recommendation for the candidate, considering skills and experience alignment with the job description"
+  },
+  {
+    "title": "Send Interview Link",
+    "steps": [
+      "Decide to proceed with a candidate",
+      "Send an interview link to the candidate"
+    ],
+    "expected_result": "Candidate receives an interview link, valid for 24 hours"
+  },
+  {
+    "title": "Initiate Interview Screening",
+    "steps": [
+      "Wait for candidate to submit their interview",
+      "Initiate the interview screening process"
+    ],
+    "expected_result": "Ability to review the candidate's interview summary and scores"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "target": "job description input field",
+        "value": "JavaScript Developer with 2 years of AWS experience"
+      },
+      {
+        "action": "click",
+        "target": "Save Job Description button"
+      }
+    ],
+    "expected_result": "Job description is saved and skill recommendations are displayed"
+  },
+  {
+    "title": "Select Skill from Recommendations",
+    "steps": [
+      {
+        "action": "click",
+        "target": "AWS skill recommendation"
+      }
+    ],
+    "expected_result": "AWS skill is selected and displayed in the skill list"
+  },
+  {
+    "title": "Set Difficulty Level of Questions",
+    "steps": [
+      {
+        "action": "select",
+        "target": "difficulty level dropdown",
+        "value": "Moderate"
+      }
+    ],
+    "expected_result": "Moderate difficulty level is set for the interview questions"
+  },
+  {
+    "title": "Generate Standard Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Generate Questions button"
+      }
+    ],
+    "expected_result": "Standard questions are generated and displayed, including 'What's the notice period?'"
+  },
+  {
+    "title": "Customize Standard Question",
+    "steps": [
+      {
+        "action": "check",
+        "target": "Preferred answer checkbox for 'What's the notice period?' question"
+      }
+    ],
+    "expected_result": "Preferred answer is set for the 'What's the notice period?' question"
+  },
+  {
+    "title": "Generate Role-Based Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Generate Questions button"
+      }
+    ],
+    "expected_result": "Role-based questions are generated and displayed, with ideal answers"
+  },
+  {
+    "title": "Create Interview",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Create Interview button"
+      }
+    ],
+    "expected_result": "Interview is created and unique public interview link is displayed"
+  },
+  {
+    "title": "Test Candidate Video Interview Response",
+    "steps": [
+      "Visit the public link and navigate to the responses tab",
+      "Click on a candidate's response to view structured answers and video recordings"
+    ],
+    "expected_result": "Candidate's video interview response is displayed with scores and resumes"
+  },
+  {
+    "title": "Test Interview Score and Communication Score",
+    "steps": [
+      "Visit the responses tab and select a candidate's response",
+      "Check the interview score and communication score"
+    ],
+    "expected_result": "Interview score and communication score are displayed correctly"
+  },
+  {
+    "title": "Test AI Comprehensive Summary",
+    "steps": [
+      "Visit the responses tab and select a candidate's response",
+      "Check the AI comprehensive summary including observations, positives, and negatives"
+    ],
+    "expected_result": "AI comprehensive summary is displayed correctly"
+  },
+  {
+    "title": "Test Action Buttons (Select/Reject Candidate)",
+    "steps": [
+      "Visit the responses tab and select a candidate's response",
+      "Click on the action button to select or reject the candidate"
+    ],
+    "expected_result": "Action buttons (select/reject) are functional and update candidate status correctly"
+  },
+  {
+    "title": "Test R\u00e9 Screening",
+    "steps": [
+      "Create an interview and upload multiple r\u00e9sum\u00e9s",
+      "Submit the r\u00e9sum\u00e9s for AI screening"
+    ],
+    "expected_result": "AI commences the screening process and assigns a r\u00e9 score to each candidate"
+  },
+  {
+    "title": "Test R\u00e9 Score and AI Recommendation",
+    "steps": [
+      "Visit the r\u00e9 screening results",
+      "Check the r\u00e9 score and AI recommendation for each candidate"
+    ],
+    "expected_result": "R\u00e9 score and AI recommendation are displayed correctly, considering skills and job description alignment"
+  },
+  {
+    "title": "Test Send Interview Link to Candidate",
+    "steps": [
+      "Select a candidate from the r\u00e9 screening results",
+      "Send an interview link to the candidate"
+    ],
+    "expected_result": "Interview link is sent successfully to the candidate, valid for 24 hours"
+  },
+  {
+    "title": "Test Interview Screening Process",
+    "steps": [
+      "Wait for the candidate to submit their interview",
+      "Initiate the interview screening process"
+    ],
+    "expected_result": "Interview screening process is initiated successfully, displaying the AI summary"
+  }
+]

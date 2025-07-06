@@ -1,0 +1,175 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "step": "Enter job description",
+        "input": "JavaScript developer with AWS experience",
+        "element": "#job-description-input"
+      },
+      {
+        "step": "Save job description",
+        "element": "#save-job-description-button"
+      },
+      {
+        "step": "Verify skill recommendations",
+        "expected": "Key skills extracted from the job description"
+      }
+    ],
+    "expected_result": "Job description saved and skill recommendations displayed"
+  },
+  {
+    "title": "Select Skills and Set Difficulty Level",
+    "steps": [
+      {
+        "step": "Choose skills from AI suggestions",
+        "input": "AWS, JavaScript",
+        "element": "#skills-list"
+      },
+      {
+        "step": "Set difficulty level",
+        "input": "Moderate",
+        "element": "#difficulty-level-select"
+      }
+    ],
+    "expected_result": "Skills and difficulty level saved"
+  },
+  {
+    "title": "Review and Customize Questions",
+    "steps": [
+      {
+        "step": "Review standard questions",
+        "expected": "Standard questions displayed"
+      },
+      {
+        "step": "Review role-based questions",
+        "expected": "Role-based questions displayed"
+      },
+      {
+        "step": "Personalize question options",
+        "input": "Preferred answer",
+        "element": "#question-options"
+      }
+    ],
+    "expected_result": "Questions reviewed and customized"
+  },
+  {
+    "title": "Create Interview and Get Public Link",
+    "steps": [
+      {
+        "step": "Click create interview",
+        "element": "#create-interview-button"
+      }
+    ],
+    "expected_result": "Interview created and public link displayed"
+  },
+  {
+    "title": "Verify Public Interview Link",
+    "steps": [
+      {
+        "step": "Verify public interview link",
+        "expected": "Unique public interview link displayed"
+      }
+    ],
+    "expected_result": "Public interview link is valid and functional"
+  },
+  {
+    "title": "Test Advanced Plan Feature (AI Avatar)",
+    "steps": [
+      {
+        "step": "Select AI avatar",
+        "element": "#ai-avatar-select"
+      }
+    ],
+    "expected_result": "AI avatar selected and lip syncing aligned with script",
+    "notes": "This test case is only applicable for users with an advanced plan"
+  },
+  {
+    "title": "View candidate responses",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response"
+    ],
+    "expected_result": "Display structured answers, video recordings, scores, and resumes"
+  },
+  {
+    "title": "View interview scores",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response",
+      "View the interview score"
+    ],
+    "expected_result": "Display the candidate's interview score"
+  },
+  {
+    "title": "View communication score",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response",
+      "View the communication score"
+    ],
+    "expected_result": "Display the candidate's communication score"
+  },
+  {
+    "title": "View AI analysis summary",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response",
+      "View the AI analysis summary"
+    ],
+    "expected_result": "Display a comprehensive summary of the interview, including observations, positives, and negatives"
+  },
+  {
+    "title": "Reject or select candidate",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response",
+      "Click the action button",
+      "Choose to either select or reject the candidate"
+    ],
+    "expected_result": "Display the selected or rejected status of the candidate"
+  },
+  {
+    "title": "Resume screening",
+    "steps": [
+      "Create an interview",
+      "Upload resumes",
+      "Submit for AI screening"
+    ],
+    "expected_result": "AI commences screening process and assigns a resume score"
+  },
+  {
+    "title": "View AI recommendations",
+    "steps": [
+      "Visit the resume screening results",
+      "View the AI recommendations"
+    ],
+    "expected_result": "Display AI recommendations for each candidate, including suitability and resume score"
+  },
+  {
+    "title": "Send interview link to candidate",
+    "steps": [
+      "Visit the resume screening results",
+      "Choose to proceed with a candidate",
+      "Send an interview link to the candidate"
+    ],
+    "expected_result": "Candidate receives an interview link valid for 24 hours"
+  },
+  {
+    "title": "View candidate interview submission",
+    "steps": [
+      "Wait for candidate to submit interview",
+      "Visit the responses tab"
+    ],
+    "expected_result": "Display the candidate's submitted interview"
+  },
+  {
+    "title": "Initiate interview screening",
+    "steps": [
+      "Visit the responses tab",
+      "Click on the candidate's submitted interview",
+      "Initiate interview screening"
+    ],
+    "expected_result": "Display the interview screening results, including scores and summary"
+  }
+]

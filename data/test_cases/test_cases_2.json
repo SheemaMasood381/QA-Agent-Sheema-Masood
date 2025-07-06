@@ -1,0 +1,100 @@
+[
+  {
+    "title": "View Candidate Responses",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Responses Tab"
+      },
+      {
+        "action": "wait",
+        "target": "Structured answers and video recordings are displayed"
+      }
+    ],
+    "expected_result": "Structured answers and video recordings are displayed with scores and resumes"
+  },
+  {
+    "title": "View Interview Score and Communication Score",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Video Interview Response"
+      },
+      {
+        "action": "wait",
+        "target": "Interview score and communication score are displayed"
+      }
+    ],
+    "expected_result": "Interview score and communication score are displayed correctly"
+  },
+  {
+    "title": "View AI Analyze Scores",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Interview Screenings Section"
+      },
+      {
+        "action": "wait",
+        "target": "AI analyze scores are displayed"
+      }
+    ],
+    "expected_result": "AI analyze scores are displayed correctly"
+  },
+  {
+    "title": "View Comprehensive Summary of the Interview",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Video Interview Response"
+      },
+      {
+        "action": "wait",
+        "target": "Comprehensive summary of the interview is displayed"
+      }
+    ],
+    "expected_result": "Comprehensive summary of the interview is displayed, including observations, positives, and negatives"
+  },
+  {
+    "title": "Select or Reject Candidate",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Action Button"
+      },
+      {
+        "action": "wait",
+        "target": "Select or Reject options are displayed"
+      }
+    ],
+    "expected_result": "Select or Reject options are displayed correctly"
+  },
+  {
+    "title": "Resume Screening",
+    "steps": [
+      {
+        "action": "click",
+        "target": "Create Interview Button"
+      },
+      {
+        "action": "upload",
+        "target": "Resume files"
+      },
+      {
+        "action": "wait",
+        "target": "AI screening process is initiated"
+      }
+    ],
+    "expected_result": "AI screening process is initiated and resume scores are assigned correctly"
+  },
+  {
+    "title": "View AI Recommendations",
+    "steps": [
+      {
+        "action": "wait",
+        "target": "AI recommendations are displayed"
+      }
+    ],
+    "expected_result": "AI recommendations are displayed correctly, including suitability of the resume and whether the AI recommends the profile for the next stage"
+  }
+]

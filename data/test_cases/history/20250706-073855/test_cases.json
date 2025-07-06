@@ -1,0 +1,184 @@
+[
+  {
+    "title": "Create an Interview with Job Description",
+    "steps": [
+      {
+        "step": "Goto the Interview Creation Page",
+        "action": "goto",
+        "target": "https://example.com/create-interview"
+      },
+      {
+        "step": "Enter Job Description",
+        "action": "fill",
+        "target": "input[name='jobDescription']",
+        "value": "2-year experienced JavaScript developer with AWS experience"
+      },
+      {
+        "step": "Click Save Job Description",
+        "action": "click",
+        "target": "button[type='submit']"
+      }
+    ],
+    "expected_result": "Job description is saved and skill recommendations are displayed"
+  },
+  {
+    "title": "Select Skills from AI Recommendations",
+    "steps": [
+      {
+        "step": "Wait for Skill Recommendations to Load",
+        "action": "waitForSelector",
+        "target": ".skill-recommendations"
+      },
+      {
+        "step": "Select a Skill",
+        "action": "click",
+        "target": ".skill-recommendations li:nth-child(1) .select-skill"
+      }
+    ],
+    "expected_result": "Selected skill is displayed in the skills list"
+  },
+  {
+    "title": "Customize Questions with Preferred Answers",
+    "steps": [
+      {
+        "step": "Wait for Questions to Load",
+        "action": "waitForSelector",
+        "target": ".questions-list"
+      },
+      {
+        "step": "Edit a Question",
+        "action": "click",
+        "target": ".questions-list li:nth-child(1) .edit-question"
+      },
+      {
+        "step": "Select a Preferred Answer",
+        "action": "click",
+        "target": ".preferred-answer-options li:nth-child(1)"
+      }
+    ],
+    "expected_result": "Preferred answer is saved for the question"
+  },
+  {
+    "title": "Create an Interview with Customized Questions",
+    "steps": [
+      {
+        "step": "Click Create Interview",
+        "action": "click",
+        "target": "button[type='submit']"
+      }
+    ],
+    "expected_result": "Interview is created with a unique public interview link"
+  },
+  {
+    "title": "Viewing candidate responses",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "responses tab"
+      },
+      {
+        "action": "expect",
+        "target": "structured answers, video recordings, scores, and resumes"
+      }
+    ],
+    "expected_result": "User can view candidate responses"
+  },
+  {
+    "title": "Viewing interview scores",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "interview screenings section"
+      },
+      {
+        "action": "expect",
+        "target": "AI analyze scores"
+      }
+    ],
+    "expected_result": "User can view interview scores"
+  },
+  {
+    "title": "Viewing communication score",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "interview screenings section"
+      },
+      {
+        "action": "expect",
+        "target": "communication score"
+      }
+    ],
+    "expected_result": "User can view communication score"
+  },
+  {
+    "title": "Viewing comprehensive interview summary",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "interview screenings section"
+      },
+      {
+        "action": "expect",
+        "target": "comprehensive summary of interview, noting observations, positives, and negatives"
+      }
+    ],
+    "expected_result": "User can view comprehensive interview summary"
+  },
+  {
+    "title": "Selecting or rejecting a candidate",
+    "steps": [
+      {
+        "action": "click",
+        "target": "action button (select or reject)"
+      },
+      {
+        "action": "expect",
+        "target": "candidate selection or rejection confirmed"
+      }
+    ],
+    "expected_result": "User can select or reject a candidate"
+  },
+  {
+    "title": "Uploading resumes for screening",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "upload resumes section"
+      },
+      {
+        "action": "upload",
+        "target": "resumes to be screened"
+      }
+    ],
+    "expected_result": "User can upload resumes for screening"
+  },
+  {
+    "title": "Viewing AI screening results",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "screening results section"
+      },
+      {
+        "action": "expect",
+        "target": "AI screening results, including r\u00e9 score and recommendation"
+      }
+    ],
+    "expected_result": "User can view AI screening results"
+  },
+  {
+    "title": "Sending interview link to candidate",
+    "steps": [
+      {
+        "action": "click",
+        "target": "send interview link button"
+      },
+      {
+        "action": "expect",
+        "target": "interview link sent to candidate"
+      }
+    ],
+    "expected_result": "User can send interview link to candidate"
+  }
+]

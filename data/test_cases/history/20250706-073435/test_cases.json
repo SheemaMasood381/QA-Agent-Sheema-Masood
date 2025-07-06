@@ -1,0 +1,221 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "target": "input[name='jobDescription']",
+        "value": "JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "target": "button[type='submit']"
+      }
+    ],
+    "expected_result": {
+      "skillRecommendationsVisible": true
+    }
+  },
+  {
+    "title": "Select Skills from AI Recommendations",
+    "steps": [
+      {
+        "action": "check",
+        "target": "checkbox[name='skill1']"
+      },
+      {
+        "action": "check",
+        "target": "checkbox[name='skill2']"
+      }
+    ],
+    "expected_result": {
+      "selectedSkillsCount": 2
+    }
+  },
+  {
+    "title": "Set Difficulty Level of Questions",
+    "steps": [
+      {
+        "action": "select",
+        "target": "select[name='difficultyLevel']",
+        "value": "moderate"
+      }
+    ],
+    "expected_result": {
+      "difficultyLevelSelected": "moderate"
+    }
+  },
+  {
+    "title": "Create Interview with Standard Questions",
+    "steps": [
+      {
+        "action": "check",
+        "target": "checkbox[name='standardQuestion1']"
+      },
+      {
+        "action": "check",
+        "target": "checkbox[name='standardQuestion2']"
+      }
+    ],
+    "expected_result": {
+      "standardQuestionsCount": 2
+    }
+  },
+  {
+    "title": "Create Interview with Role-Based Questions",
+    "steps": [
+      {
+        "action": "check",
+        "target": "checkbox[name='roleBasedQuestion1']"
+      },
+      {
+        "action": "check",
+        "target": "checkbox[name='roleBasedQuestion2']"
+      }
+    ],
+    "expected_result": {
+      "roleBasedQuestionsCount": 2
+    }
+  },
+  {
+    "title": "Create Interview with Custom Questions",
+    "steps": [
+      {
+        "action": "fill",
+        "target": "input[name='customQuestion']",
+        "value": "What is your experience with JavaScript?"
+      }
+    ],
+    "expected_result": {
+      "customQuestionVisible": true
+    }
+  },
+  {
+    "title": "Create Interview and Verify Unique Public Link",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button[type='submit']"
+      }
+    ],
+    "expected_result": {
+      "uniquePublicLinkVisible": true
+    }
+  },
+  {
+    "title": "Can view candidate's responses",
+    "steps": [
+      {
+        "action": "visit",
+        "target": "responses tab"
+      },
+      {
+        "action": "view",
+        "target": "structured answers and video recordings"
+      },
+      {
+        "action": "view",
+        "target": "scores and resumes"
+      }
+    ],
+    "expected_result": "Candidate's responses are visible"
+  },
+  {
+    "title": "Can view AI analyze scores",
+    "steps": [
+      {
+        "action": "visit",
+        "target": "interview screenings section"
+      },
+      {
+        "action": "view",
+        "target": "AI analyze scores"
+      }
+    ],
+    "expected_result": "AI analyze scores are visible"
+  },
+  {
+    "title": "Can view comprehensive summary of the interview",
+    "steps": [
+      {
+        "action": "view",
+        "target": "interview summary"
+      },
+      {
+        "action": "view",
+        "target": "observations, positives, and negatives"
+      }
+    ],
+    "expected_result": "Comprehensive summary of the interview is visible"
+  },
+  {
+    "title": "Can select or reject candidate",
+    "steps": [
+      {
+        "action": "click",
+        "target": "action button"
+      },
+      {
+        "action": "select",
+        "target": "select or reject option"
+      }
+    ],
+    "expected_result": "Candidate is selected or rejected"
+  },
+  {
+    "title": "Can upload resumes for screening",
+    "steps": [
+      {
+        "action": "create",
+        "target": "interview"
+      },
+      {
+        "action": "upload",
+        "target": "resumes"
+      }
+    ],
+    "expected_result": "Resumes are uploaded for screening"
+  },
+  {
+    "title": "Can view AI recommended profiles",
+    "steps": [
+      {
+        "action": "view",
+        "target": "AI recommended profiles"
+      },
+      {
+        "action": "view",
+        "target": "r\u00e9 score"
+      }
+    ],
+    "expected_result": "AI recommended profiles are visible"
+  },
+  {
+    "title": "Can decide to reject or advance candidate",
+    "steps": [
+      {
+        "action": "view",
+        "target": "AI recommendation"
+      },
+      {
+        "action": "decide",
+        "target": "reject or advance candidate"
+      }
+    ],
+    "expected_result": "Can make a decision on the candidate"
+  },
+  {
+    "title": "Can send interview link to candidate",
+    "steps": [
+      {
+        "action": "send",
+        "target": "interview link"
+      },
+      {
+        "action": "validate",
+        "target": "interview link is valid for 24 hours"
+      }
+    ],
+    "expected_result": "Interview link is sent to candidate and is valid for 24 hours"
+  }
+]

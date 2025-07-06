@@ -1,0 +1,66 @@
+
+Running 62 tests using 1 worker
+
+[1A[2K[1/62] tests\generated.spec.ts:3:5 â€º TC1: ### Create Interview - Enter Job Description
+[1A[2K[2/62] tests\generated.spec.ts:8:5 â€º TC2: 1. navigate to interview creation page
+[1A[2K[3/62] tests\generated.spec.ts:13:5 â€º TC3: 2. enter job description
+[1A[2K[4/62] tests\generated.spec.ts:18:5 â€º TC4: 3. click save
+[1A[2K[5/62] tests\generated.spec.ts:25:5 â€º TC5: ### Create Interview - Use Enhanced JD Feature
+[1A[2K[6/62] tests\generated.spec.ts:30:5 â€º TC6: 1. navigate to interview creation page
+[1A[2K[7/62] tests\generated.spec.ts:35:5 â€º TC7: 2. enter job title
+[1A[2K[8/62] tests\generated.spec.ts:40:5 â€º TC8: 3. click on enhanced JD feature
+[1A[2K[9/62] tests\generated.spec.ts:45:5 â€º TC9: 4. select generated job description
+[1A[2K[10/62] tests\generated.spec.ts:50:5 â€º TC10: 5. click save
+[1A[2K[11/62] tests\generated.spec.ts:57:5 â€º TC11: ### Create Interview - Select Skills
+[1A[2K[12/62] tests\generated.spec.ts:62:5 â€º TC12: 1. navigate to interview creation page
+[1A[2K[13/62] tests\generated.spec.ts:67:5 â€º TC13: 2. select skills suggested by AI
+[1A[2K[14/62] tests\generated.spec.ts:72:5 â€º TC14: 3. add custom skills
+[1A[2K[15/62] tests\generated.spec.ts:77:5 â€º TC15: 4. click save
+[1A[2K[16/62] tests\generated.spec.ts:84:5 â€º TC16: ### Create Interview - Set Difficulty Level
+[1A[2K[17/62] tests\generated.spec.ts:89:5 â€º TC17: 1. navigate to interview creation page
+[1A[2K[18/62] tests\generated.spec.ts:94:5 â€º TC18: 2. select difficulty level
+[1A[2K[19/62] tests\generated.spec.ts:99:5 â€º TC19: 3. click save
+[1A[2K[20/62] tests\generated.spec.ts:106:5 â€º TC20: ### Create Interview - Customize Standard Questions
+[1A[2K[21/62] tests\generated.spec.ts:111:5 â€º TC21: 1. navigate to interview creation page
+[1A[2K[22/62] tests\generated.spec.ts:116:5 â€º TC22: 2. customize standard questions
+[1A[2K[23/62] tests\generated.spec.ts:121:5 â€º TC23: 3. add preferred answers
+[1A[2K[24/62] tests\generated.spec.ts:126:5 â€º TC24: 4. click save
+[1A[2K[25/62] tests\generated.spec.ts:133:5 â€º TC25: ### Create Interview - Customize Role-Based Questions
+[1A[2K[26/62] tests\generated.spec.ts:138:5 â€º TC26: 1. navigate to interview creation page
+[1A[2K[27/62] tests\generated.spec.ts:143:5 â€º TC27: 2. customize role-based questions
+[1A[2K[28/62] tests\generated.spec.ts:148:5 â€º TC28: 3. add preferred answers
+[1A[2K[29/62] tests\generated.spec.ts:153:5 â€º TC29: 4. click save
+[1A[2K[30/62] tests\generated.spec.ts:160:5 â€º TC30: ### Create Interview - Advanced Plan - Select AI Avatar
+[1A[2K[31/62] tests\generated.spec.ts:165:5 â€º TC31: 1. navigate to interview creation page
+[1A[2K[32/62] tests\generated.spec.ts:170:5 â€º TC32: 2. select AI avatar
+[1A[2K[33/62] tests\generated.spec.ts:175:5 â€º TC33: 3. click save
+[1A[2K[34/62] tests\generated.spec.ts:182:5 â€º TC34: ### Create Interview - Create Interview
+[1A[2K[35/62] tests\generated.spec.ts:187:5 â€º TC35: 1. navigate to interview creation page
+[1A[2K[36/62] tests\generated.spec.ts:192:5 â€º TC36: 2. click create interview button
+[1A[2K[37/62] tests\generated.spec.ts:199:5 â€º TC37: ### Candidate Response Viewing
+[1A[2K[38/62] tests\generated.spec.ts:204:5 â€º TC38: 1. Open the responses tab
+[1A[2K[39/62] tests\generated.spec.ts:209:5 â€º TC39: 2. Click on a candidate's response
+[1A[2K[40/62] tests\generated.spec.ts:216:5 â€º TC40: ### Interview Score and Communication Score
+[1A[2K[41/62] tests\generated.spec.ts:221:5 â€º TC41: 1. Open the responses tab
+[1A[2K[42/62] tests\generated.spec.ts:226:5 â€º TC42: 2. Click on a candidate's response
+[1A[2K[43/62] tests\generated.spec.ts:231:5 â€º TC43: 3. Click on the interview screenings section
+[1A[2K[44/62] tests\generated.spec.ts:238:5 â€º TC44: ### Comprehensive Summary and Action Button
+[1A[2K[45/62] tests\generated.spec.ts:243:5 â€º TC45: 1. Open the responses tab
+[1A[2K[46/62] tests\generated.spec.ts:248:5 â€º TC46: 2. Click on a candidate's response
+[1A[2K[47/62] tests\generated.spec.ts:253:5 â€º TC47: 3. Click on the interview screenings section
+[1A[2K[48/62] tests\generated.spec.ts:260:5 â€º TC48: ### RÃ© Screening Upload
+[1A[2K[49/62] tests\generated.spec.ts:265:5 â€º TC49: 1. Create an interview
+[1A[2K[50/62] tests\generated.spec.ts:270:5 â€º TC50: 2. Upload a set of rÃ©sumÃ©s
+[1A[2K[51/62] tests\generated.spec.ts:277:5 â€º TC51: ### Semantic Analysis and RÃ© Score
+[1A[2K[52/62] tests\generated.spec.ts:282:5 â€º TC52: 1. Create an interview
+[1A[2K[53/62] tests\generated.spec.ts:287:5 â€º TC53: 2. Upload a set of rÃ©sumÃ©s
+[1A[2K[54/62] tests\generated.spec.ts:292:5 â€º TC54: 3. View the screening results
+[1A[2K[55/62] tests\generated.spec.ts:299:5 â€º TC55: ### AI Recommendations
+[1A[2K[56/62] tests\generated.spec.ts:304:5 â€º TC56: 1. Create an interview
+[1A[2K[57/62] tests\generated.spec.ts:309:5 â€º TC57: 2. Upload a set of rÃ©sumÃ©s
+[1A[2K[58/62] tests\generated.spec.ts:314:5 â€º TC58: 3. View the screening results
+[1A[2K[59/62] tests\generated.spec.ts:321:5 â€º TC59: ### Interview Link and Submission
+[1A[2K[60/62] tests\generated.spec.ts:326:5 â€º TC60: 1. Decide to proceed with a candidate
+[1A[2K[61/62] tests\generated.spec.ts:331:5 â€º TC61: 2. Send the candidate an interview link
+[1A[2K[62/62] tests\generated.spec.ts:336:5 â€º TC62: 3. Wait for the candidate to submit their interview
+[1A[2K  62 passed (2.3m)

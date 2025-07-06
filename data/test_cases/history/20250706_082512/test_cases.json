@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "click",
+        "target": "input#jobDescription"
+      },
+      {
+        "action": "fill",
+        "target": "input#jobDescription",
+        "value": "2-year experienced JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "target": "button#saveJobDescription"
+      }
+    ],
+    "expected_result": {
+      "visibility": "visible",
+      "elements": [
+        "#skillRecommendations",
+        "#standardQuestions",
+        "#roleBasedQuestions"
+      ]
+    }
+  },
+  {
+    "title": "Select Skills and Set Difficulty Level",
+    "steps": [
+      {
+        "action": "click",
+        "target": "checkbox#awsSkill"
+      },
+      {
+        "action": "select",
+        "target": "select#difficultyLevel",
+        "value": "hard"
+      }
+    ],
+    "expected_result": {
+      "visibility": "visible",
+      "elements": [
+        "#standardQuestions",
+        "#roleBasedQuestions"
+      ]
+    }
+  },
+  {
+    "title": "Customize Standard Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "input#standardQuestion1"
+      },
+      {
+        "action": "fill",
+        "target": "input#standardQuestion1",
+        "value": "What's the notice period?"
+      },
+      {
+        "action": "check",
+        "target": "checkbox#preferredAnswer1"
+      }
+    ],
+    "expected_result": {
+      "visibility": "visible",
+      "elements": [
+        "#standardQuestions",
+        "#roleBasedQuestions"
+      ]
+    }
+  },
+  {
+    "title": "Customize Role-Based Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "input#roleBasedQuestion1"
+      },
+      {
+        "action": "fill",
+        "target": "input#roleBasedQuestion1",
+        "value": "How do you handle AWS errors?"
+      },
+      {
+        "action": "check",
+        "target": "checkbox#idealAnswer1"
+      }
+    ],
+    "expected_result": {
+      "visibility": "visible",
+      "elements": [
+        "#standardQuestions",
+        "#roleBasedQuestions"
+      ]
+    }
+  },
+  {
+    "title": "Create Interview",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button#createInterview"
+      }
+    ],
+    "expected_result": {
+      "visibility": "visible",
+      "elements": [
+        "#uniquePublicInterviewLink"
+      ]
+    }
+  },
+  {
+    "title": "View candidate responses",
+    "steps": [
+      "Navigate to the responses tab",
+      "Click on a candidate's response to view their video interview and structured answers",
+      "Verify that the candidate's score, resume, and video recording are displayed"
+    ],
+    "expected_result": "The candidate's response is displayed with their score, resume, and video recording"
+  },
+  {
+    "title": "View detailed scoring",
+    "steps": [
+      "Navigate to the interview screenings section",
+      "Click on a candidate's interview to view their AI-analyzed scores",
+      "Verify that the AI provides a comprehensive summary of the interview, including observations, positives, and negatives"
+    ],
+    "expected_result": "The detailed scoring page displays the AI's analysis of the candidate's interview"
+  },
+  {
+    "title": "Take action on a candidate",
+    "steps": [
+      "Navigate to the responses tab",
+      "Click on a candidate's response",
+      "Verify that an action button is displayed to either select or reject the candidate"
+    ],
+    "expected_result": "The action button is displayed, allowing the user to select or reject the candidate"
+  },
+  {
+    "title": "Screen resumes against a job description",
+    "steps": [
+      "Create an interview and upload a set of resumes",
+      "Verify that the AI commences the screening process",
+      "Verify that each resume is assigned a score based on the candidate's skills and experience"
+    ],
+    "expected_result": "The AI screens the resumes and assigns a score to each, indicating the candidate's suitability for the job"
+  },
+  {
+    "title": "View AI recommendations",
+    "steps": [
+      "Navigate to the resume screening results",
+      "Verify that the AI provides a recommendation for each candidate, indicating whether they are suitable for the next stage"
+    ],
+    "expected_result": "The AI recommendations are displayed, indicating whether each candidate is suitable for the next stage"
+  },
+  {
+    "title": "Send interview link to candidate",
+    "steps": [
+      "Select a candidate to advance to the next round",
+      "Verify that an interview link is sent to the candidate, valid for 24 hours",
+      "Verify that the candidate can submit their interview at their convenience"
+    ],
+    "expected_result": "The interview link is sent to the candidate, allowing them to submit their interview"
+  }
+]

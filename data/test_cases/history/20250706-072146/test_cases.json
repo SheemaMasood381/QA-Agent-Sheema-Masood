@@ -1,0 +1,205 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "target": "input[name='jobDescription']",
+        "value": "JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "target": "button[type='submit']"
+      }
+    ],
+    "expected_result": "Job description is saved and skill recommendations are displayed"
+  },
+  {
+    "title": "Select Skills from AI Recommendations",
+    "steps": [
+      {
+        "action": "click",
+        "target": "li[data-skill='AWS']"
+      },
+      {
+        "action": "click",
+        "target": "li[data-skill='JavaScript']"
+      }
+    ],
+    "expected_result": "Selected skills are added to the interview creation process"
+  },
+  {
+    "title": "Choose Difficulty Level of Questions",
+    "steps": [
+      {
+        "action": "select",
+        "target": "select[name='difficultyLevel']",
+        "value": "Moderate"
+      }
+    ],
+    "expected_result": "Difficulty level is updated for the interview questions"
+  },
+  {
+    "title": "View Standard and Role-Based Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button[title='Expand standard questions']"
+      },
+      {
+        "action": "click",
+        "target": "button[title='Expand role-based questions']"
+      }
+    ],
+    "expected_result": "Both standard and role-based questions are displayed"
+  },
+  {
+    "title": "Customize Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "input[name='question']"
+      },
+      {
+        "action": "type",
+        "target": "input[name='question']",
+        "value": "What is your experience with AWS?"
+      },
+      {
+        "action": "click",
+        "target": "input[name='idealAnswer']"
+      },
+      {
+        "action": "type",
+        "target": "input[name='idealAnswer']",
+        "value": "2+ years"
+      }
+    ],
+    "expected_result": "Custom question is added to the interview"
+  },
+  {
+    "title": "Create Interview with Selected Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "button[type='submit']"
+      }
+    ],
+    "expected_result": "Interview is created successfully and a unique public interview link is generated"
+  },
+  {
+    "title": "Verify Public Interview Link",
+    "steps": [
+      {
+        "action": "verify",
+        "target": "text=Public Interview Link"
+      }
+    ],
+    "expected_result": "Public interview link is displayed"
+  },
+  {
+    "title": "Verify candidate's interview score and communication score",
+    "steps": [
+      {
+        "description": "Open the responses tab",
+        "action": "click",
+        "selector": "text=Responses"
+      },
+      {
+        "description": "Select the candidate's video interview",
+        "action": "click",
+        "selector": "video-interview-link"
+      }
+    ],
+    "expected_result": {
+      "interview_score": "greater than 0",
+      "communication_score": "greater than 0"
+    }
+  },
+  {
+    "title": "Verify AI comprehensive summary of the interview",
+    "steps": [
+      {
+        "description": "Open the responses tab",
+        "action": "click",
+        "selector": "text=Responses"
+      },
+      {
+        "description": "Select the candidate's video interview",
+        "action": "click",
+        "selector": "video-interview-link"
+      }
+    ],
+    "expected_result": {
+      "summary": "contains observations, positives, and negatives"
+    }
+  },
+  {
+    "title": "Verify action buttons to select or reject the candidate",
+    "steps": [
+      {
+        "description": "Open the responses tab",
+        "action": "click",
+        "selector": "text=Responses"
+      },
+      {
+        "description": "Select the candidate's video interview",
+        "action": "click",
+        "selector": "video-interview-link"
+      }
+    ],
+    "expected_result": {
+      "action_buttons": [
+        "Select",
+        "Reject"
+      ]
+    }
+  },
+  {
+    "title": "Verify r\u00e9 screening functionality",
+    "steps": [
+      {
+        "description": "Create an interview and upload resumes",
+        "action": "upload",
+        "selector": "resume-upload-input"
+      },
+      {
+        "description": "Submit the resumes for screening",
+        "action": "click",
+        "selector": "submit-resumes-button"
+      }
+    ],
+    "expected_result": {
+      "r\u00e9_scores": "array of scores",
+      "AI_recommendations": "array of recommendations"
+    }
+  },
+  {
+    "title": "Verify semantic analysis and r\u00e9 score assignment",
+    "steps": [
+      {
+        "description": "Open the r\u00e9 screening results",
+        "action": "click",
+        "selector": "r\u00e9-screening-results-link"
+      }
+    ],
+    "expected_result": {
+      "semantic_analysis": "conducted",
+      "r\u00e9_score": "greater than 0"
+    }
+  },
+  {
+    "title": "Verify AI recommendation for the next stage",
+    "steps": [
+      {
+        "description": "Open the r\u00e9 screening results",
+        "action": "click",
+        "selector": "r\u00e9-screening-results-link"
+      }
+    ],
+    "expected_result": {
+      "AI_recommendation": "boolean",
+      "reason": "string"
+    }
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "target": "input_job_description",
+        "value": "JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "target": "save_job_description_button"
+      }
+    ],
+    "expected_result": "Skill recommendations are displayed"
+  },
+  {
+    "title": "Select Skills from AI Suggestions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "skill_suggestion_aws"
+      },
+      {
+        "action": "click",
+        "target": "skill_suggestion_javascript"
+      }
+    ],
+    "expected_result": "Selected skills are displayed"
+  },
+  {
+    "title": "Set Difficulty Level of Questions",
+    "steps": [
+      {
+        "action": "select",
+        "target": "difficulty_level_select",
+        "option": "moderate"
+      }
+    ],
+    "expected_result": "Difficulty level is set to moderate"
+  },
+  {
+    "title": "AI Suggests Standard and Role-Based Questions",
+    "steps": [
+      {
+        "action": "waitFor",
+        "target": "standard_questions_list"
+      },
+      {
+        "action": "waitFor",
+        "target": "role_based_questions_list"
+      }
+    ],
+    "expected_result": "Standard and role-based questions are displayed"
+  },
+  {
+    "title": "Personalize Standard Questions",
+    "steps": [
+      {
+        "action": "click",
+        "target": "standard_question_edit_button"
+      },
+      {
+        "action": "fill",
+        "target": "standard_question_input",
+        "value": "What's your experience with JavaScript?"
+      },
+      {
+        "action": "click",
+        "target": "standard_question_save_button"
+      }
+    ],
+    "expected_result": "Standard question is personalized"
+  },
+  {
+    "title": "Create Interview",
+    "steps": [
+      {
+        "action": "click",
+        "target": "create_interview_button"
+      }
+    ],
+    "expected_result": "Interview is created and unique public interview link is displayed"
+  },
+  {
+    "title": "View candidate responses",
+    "steps": [
+      "Visit the responses tab",
+      "Verify that structured answers, video recordings, scores, and resumes are displayed for each candidate"
+    ],
+    "expected_result": "All candidate responses are displayed with structured answers, video recordings, scores, and resumes"
+  },
+  {
+    "title": "View interview scores and communication scores",
+    "steps": [
+      "Select a candidate who has completed a video interview",
+      "Verify that the interview score and communication score are displayed"
+    ],
+    "expected_result": "The interview score and communication score are displayed for the selected candidate"
+  },
+  {
+    "title": "View AI analysis summary",
+    "steps": [
+      "Select a candidate who has completed a video interview",
+      "Verify that the AI analysis summary is displayed, including observations, positives, and negatives"
+    ],
+    "expected_result": "The AI analysis summary is displayed for the selected candidate, including observations, positives, and negatives"
+  },
+  {
+    "title": "Reject or select candidate",
+    "steps": [
+      "Select a candidate who has completed a video interview",
+      "Verify that an action button is displayed to either select or reject the candidate"
+    ],
+    "expected_result": "The action button to select or reject the candidate is displayed"
+  },
+  {
+    "title": "Upload resumes for screening",
+    "steps": [
+      "Create an interview",
+      "Upload a set of resumes",
+      "Verify that the AI commences the screening process"
+    ],
+    "expected_result": "The AI begins screening the uploaded resumes"
+  },
+  {
+    "title": "View resume scores and recommendations",
+    "steps": [
+      "Upload a set of resumes",
+      "Verify that the resume scores and AI recommendations are displayed"
+    ],
+    "expected_result": "The resume scores and AI recommendations are displayed for each uploaded resume"
+  },
+  {
+    "title": "Send interview link to candidate",
+    "steps": [
+      "Select a candidate who has been recommended by the AI",
+      "Verify that an interview link can be sent to the candidate, valid for 24 hours"
+    ],
+    "expected_result": "The interview link can be sent to the candidate and is valid for 24 hours"
+  },
+  {
+    "title": "View interview summary",
+    "steps": [
+      "Send an interview link to a candidate",
+      "Wait for the candidate to submit their interview",
+      "Verify that the interview summary is displayed, including AI analysis"
+    ],
+    "expected_result": "The interview summary is displayed, including AI analysis, after the candidate submits their interview"
+  }
+]

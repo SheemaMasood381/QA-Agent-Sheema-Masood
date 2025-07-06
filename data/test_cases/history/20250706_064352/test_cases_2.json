@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Successful Candidate Application Flow",
+    "steps": [
+      "Open the public link",
+      "Fill in the application form with valid data",
+      "Submit the application",
+      "Verify the application is received by the system"
+    ],
+    "expected_result": "The candidate's application is successfully submitted and visible in the responses tab"
+  },
+  {
+    "title": "View Structured Answers and Video Recordings",
+    "steps": [
+      "Open the responses tab",
+      "Click on a candidate's response",
+      "Verify structured answers and video recordings are displayed"
+    ],
+    "expected_result": "The candidate's structured answers and video recordings are displayed"
+  },
+  {
+    "title": "View AI Analyze Scores",
+    "steps": [
+      "Open the interview screenings section",
+      "Click on a candidate's interview",
+      "Verify AI analyze scores are displayed"
+    ],
+    "expected_result": "The candidate's AI analyze scores are displayed"
+  },
+  {
+    "title": "Reject or Select Candidate",
+    "steps": [
+      "Open the responses tab",
+      "Click on a candidate's response",
+      "Verify the action button to select or reject the candidate is available"
+    ],
+    "expected_result": "The action button to select or reject the candidate is displayed"
+  },
+  {
+    "title": "Resume Screening with AI Recommendations",
+    "steps": [
+      "Create an interview and upload resumes",
+      "Verify the AI screening process initiates",
+      "Verify resumes are assigned a score based on skills and experience"
+    ],
+    "expected_result": "The AI provides a realistic assessment of the candidates' experience in relation to the job description"
+  },
+  {
+    "title": "Invalid Data in Application Form",
+    "steps": [
+      "Open the public link",
+      "Fill in the application form with invalid data (e.g. invalid email)",
+      "Submit the application",
+      "Verify an error message is displayed"
+    ],
+    "expected_result": "An error message is displayed indicating invalid data",
+    "edge_cases": [
+      "Invalid email",
+      "Invalid phone number",
+      "Empty required fields"
+    ]
+  },
+  {
+    "title": "Network Error during Application Submission",
+    "steps": [
+      "Open the public link",
+      "Fill in the application form with valid data",
+      "Simulate a network error during submission",
+      "Verify an error message is displayed"
+    ],
+    "expected_result": "An error message is displayed indicating a network error",
+    "edge_cases": [
+      "Network timeout",
+      "Connection lost",
+      "Server error"
+    ]
+  },
+  {
+    "title": "Cross-Browser Compatibility: Public Link",
+    "steps": [
+      "Open the public link in different browsers (e.g. Chrome, Firefox, Edge)",
+      "Verify the link is accessible and functional in each browser"
+    ],
+    "expected_result": "The public link is accessible and functional in each browser"
+  },
+  {
+    "title": "Cross-Browser Compatibility: Responses Tab",
+    "steps": [
+      "Open the responses tab in different browsers (e.g. Chrome, Firefox, Edge)",
+      "Verify the responses tab is accessible and functional in each browser"
+    ],
+    "expected_result": "The responses tab is accessible and functional in each browser"
+  },
+  {
+    "title": "Mobile Responsiveness: Public Link",
+    "steps": [
+      "Open the public link on a mobile device",
+      "Verify the link is accessible and functional on mobile"
+    ],
+    "expected_result": "The public link is accessible and functional on mobile"
+  },
+  {
+    "title": "Accessibility: Screen Reader Compatibility",
+    "steps": [
+      "Open the public link with a screen reader",
+      "Verify the content is accessible and readable with a screen reader"
+    ],
+    "expected_result": "The content is accessible and readable with a screen reader",
+    "accessibility": "WCAG 2.1 guideline 1.1: Non-text Content"
+  },
+  {
+    "title": "Performance: Fast Response Times",
+    "steps": [
+      "Open the public link",
+      "Verify the response time is under 3 seconds"
+    ],
+    "expected_result": "The response time is under 3 seconds",
+    "performance": "Response time should be under 3 seconds"
+  }
+]

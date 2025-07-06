@@ -1,0 +1,207 @@
+[
+  {
+    "title": "### Create Interview - Job Description Step",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'fill', 'target': \"[name='jobDescription']\", 'value': 'JavaScript developer with 2 years of experience and AWS expertise'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': \"[type='submit']\"}",
+    "steps": [],
+    "expected_result": "** Skill recommendations are displayed"
+  },
+  {
+    "title": "### Create Interview - Skill Selection Step",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'selectOption', 'target': \"[name='skills']\", 'option': 'AWS'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'selectOption', 'target': \"[name='skills']\", 'option': 'JavaScript'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'selectOption', 'target': \"[name='difficultyLevel']\", 'option': 'Moderate'}",
+    "steps": [],
+    "expected_result": "** Questions are generated based on selected skills"
+  },
+  {
+    "title": "### Create Interview - Standard Questions Step",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'waitForSelector', 'target': \"[data-test='standard-questions']\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'check', 'target': \"[data-test='preferred-answer-checkbox']\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'addCustomQuestion', 'target': \"[data-test='add-custom-question-button']\", 'question': 'What is your experience with AWS?'}",
+    "steps": [],
+    "expected_result": "** Custom question is added to standard questions"
+  },
+  {
+    "title": "### Create Interview - Role-Based Questions Step",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'waitForSelector', 'target': \"[data-test='role-based-questions']\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'modifyQuestion', 'target': \"[data-test='role-based-question-1']\", 'question': 'How do you handle errors in JavaScript?'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'modifyIdealAnswer', 'target': \"[data-test='ideal-answer-input']\", 'answer': 'Using try-catch blocks'}",
+    "steps": [],
+    "expected_result": "** Role-based question is modified"
+  },
+  {
+    "title": "### Create Interview - Create Interview Step",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"[data-test='create-interview-button']\"}",
+    "steps": [],
+    "expected_result": "** Interview is created and public link is displayed"
+  },
+  {
+    "title": "### Test candidate video interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Visit the responses tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on the candidate's response to view structured answers and video recordings",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Check if scores and resumes are displayed",
+    "steps": [],
+    "expected_result": "** The candidate's interview score, communication score, and comprehensive summary of the interview are displayed"
+  },
+  {
+    "title": "### Test AI analyze scores",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Visit the interview screenings section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Check if AI analyze scores are displayed",
+    "steps": [],
+    "expected_result": "** AI analyze scores are displayed for the candidate"
+  },
+  {
+    "title": "### Test action buttons",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Check if action buttons (select or reject) are displayed next to the candidate's profile",
+    "steps": [],
+    "expected_result": "** Action buttons (select or reject) are displayed next to the candidate's profile"
+  },
+  {
+    "title": "### Test r\u00e9 screening",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Create an interview and upload multiple r\u00e9sum\u00e9s",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Submit the r\u00e9sum\u00e9s for screening",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Check if AI screening process starts",
+    "steps": [],
+    "expected_result": "** AI screening process starts and assigns a r\u00e9 score to each candidate"
+  },
+  {
+    "title": "### Test semantic analysis and r\u00e9 score",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Check if the system conducts a comprehensive semantic analysis",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Check if r\u00e9 score is assigned to each candidate based on their skills and experience",
+    "steps": [],
+    "expected_result": "** R\u00e9 score is assigned to each candidate based on their skills and experience, and AI recommends or rejects the profile"
+  },
+  {
+    "title": "### Test interview link sending",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Select a candidate to proceed to the next round",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Send an interview link to the candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Check if the link is valid for 24 hours",
+    "steps": [],
+    "expected_result": "** Interview link is sent to the candidate and is valid for 24 hours"
+  },
+  {
+    "title": "### Test interview submission and review",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Check if the candidate can submit their interview at their convenience",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Initiate the interview screening process",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Review the summary of the interview",
+    "steps": [],
+    "expected_result": "** Candidate can submit their interview, and the summary of the interview is displayed for review"
+  }
+]

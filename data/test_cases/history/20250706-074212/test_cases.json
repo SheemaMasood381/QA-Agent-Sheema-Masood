@@ -1,0 +1,219 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description and click save",
+      "Verify that the AI suggests questions based on the job description"
+    ],
+    "expected_result": "The interview creation page displays suggested questions based on the job description"
+  },
+  {
+    "title": "Create Interview with Enhanced JD Feature",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job title (e.g. JavaScript developer with AWS experience)",
+      "Click on the enhanced JD feature",
+      "Verify that the AI generates a complete job description"
+    ],
+    "expected_result": "The interview creation page displays a generated job description based on the job title"
+  },
+  {
+    "title": "Edit and Save Job Description",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description and click save",
+      "Edit the job description and click save again",
+      "Verify that the changes are saved"
+    ],
+    "expected_result": "The edited job description is saved and displayed on the interview creation page"
+  },
+  {
+    "title": "Select Skill Recommendations",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description and click save",
+      "Verify that the AI suggests skill recommendations",
+      "Select a skill recommendation and verify that it is added to the interview"
+    ],
+    "expected_result": "The selected skill recommendation is added to the interview"
+  },
+  {
+    "title": "Add Custom Skill",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description and click save",
+      "Verify that the AI suggests skill recommendations",
+      "Add a custom skill and verify that it is added to the interview"
+    ],
+    "expected_result": "The custom skill is added to the interview"
+  },
+  {
+    "title": "Configure Difficulty Level of Questions",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description and click save",
+      "Verify that the AI suggests questions",
+      "Configure the difficulty level of a question and verify that it is saved"
+    ],
+    "expected_result": "The difficulty level of the question is saved and displayed on the interview creation page"
+  },
+  {
+    "title": "Create Standard Questions",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description and click save",
+      "Verify that the AI suggests standard questions",
+      "Add a standard question and verify that it is added to the interview"
+    ],
+    "expected_result": "The standard question is added to the interview"
+  },
+  {
+    "title": "Create Role-Based Questions",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description and click save",
+      "Verify that the AI suggests role-based questions",
+      "Add a role-based question and verify that it is added to the interview"
+    ],
+    "expected_result": "The role-based question is added to the interview"
+  },
+  {
+    "title": "Create Interview with Advanced Plan Features",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description and click save",
+      "Verify that the AI suggests questions",
+      "Select an AI avatar and verify that it is saved"
+    ],
+    "expected_result": "The AI avatar is saved and displayed on the interview creation page"
+  },
+  {
+    "title": "Create Interview and Get Unique Public Link",
+    "steps": [
+      "Visit the interview creation page",
+      "Enter a job description and click save",
+      "Verify that the AI suggests questions",
+      "Click on the create option and verify that a unique public link is generated"
+    ],
+    "expected_result": "A unique public link is generated and displayed on the interview creation page"
+  },
+  {
+    "title": "Verify Candidate Interview Response",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "responses tab"
+      },
+      {
+        "action": "assert",
+        "target": "candidate's responses",
+        "expected": "structured answers and video recordings along with scores and resumes"
+      }
+    ],
+    "expected_result": "Candidate's responses are displayed with structured answers, video recordings, scores, and resumes"
+  },
+  {
+    "title": "Verify Interview Score",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "responses tab"
+      },
+      {
+        "action": "assert",
+        "target": "interview score",
+        "expected": "a numerical score"
+      }
+    ],
+    "expected_result": "Interview score is displayed"
+  },
+  {
+    "title": "Verify Communication Score",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "responses tab"
+      },
+      {
+        "action": "assert",
+        "target": "communication score",
+        "expected": "a numerical score"
+      }
+    ],
+    "expected_result": "Communication score is displayed"
+  },
+  {
+    "title": "Verify AI Analysis Summary",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "interview screenings section"
+      },
+      {
+        "action": "assert",
+        "target": "AI analysis summary",
+        "expected": "observations, positives, and negatives"
+      }
+    ],
+    "expected_result": "AI analysis summary is displayed with observations, positives, and negatives"
+  },
+  {
+    "title": "Verify Action Button Functionality",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "responses tab"
+      },
+      {
+        "action": "click",
+        "target": "action button"
+      },
+      {
+        "action": "assert",
+        "target": "candidate selection/rejection option",
+        "expected": "select or reject the candidate"
+      }
+    ],
+    "expected_result": "Action button allows selecting or rejecting the candidate"
+  },
+  {
+    "title": "Verify Resume Screening Functionality",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "r\u00e9 screening section"
+      },
+      {
+        "action": "upload",
+        "target": "r\u00e9sum\u00e9s"
+      },
+      {
+        "action": "assert",
+        "target": "AI screening process",
+        "expected": "commences screening process"
+      }
+    ],
+    "expected_result": "Resume screening process commences upon uploading r\u00e9sum\u00e9s"
+  },
+  {
+    "title": "Verify AI R\u00e9 Score and Recommendation",
+    "steps": [
+      {
+        "action": "navigate",
+        "target": "r\u00e9 screening section"
+      },
+      {
+        "action": "assert",
+        "target": "r\u00e9 score",
+        "expected": "a numerical score"
+      },
+      {
+        "action": "assert",
+        "target": "AI recommendation",
+        "expected": "candidate recommendation for next stage"
+      }
+    ],
+    "expected_result": "AI r\u00e9 score and recommendation are displayed"
+  }
+]

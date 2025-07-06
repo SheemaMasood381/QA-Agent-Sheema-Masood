@@ -1,0 +1,166 @@
+Today we're going to show you how to
+automate the process of creating
+interviews, conducting resume based
+screening, and even executing first
+round video interviews using AI.
+The first step is to create an
+interview. This can be done in two easy
+steps. First, provide the job
+description.
+Once you've done that, the AI will
+suggest questions based on the job
+description. You can customize these
+questions and then establish the
+interview. For users of the advanced
+plan, there's an extra step where you
+can select an AI avatar.
+This ensures that the lip syncing aligns
+with the script. Let's start with the
+first step. If you already have a job
+description, enter it here. If you don't
+have a description, but you do know the
+job title, such as looking for a 2-year
+experienced JavaScript developer with
+AWS experience, you can use the enhanced
+JD feature. The AI will generate a
+complete job description for you. If you
+want, you can prefill and edit the job
+description. Once you've saved the job
+description, you'll start seeing some
+skill recommendations. The AI extracts
+key skills from the job description as
+the entire automation of the interview
+process depends on this skill set. The
+interview questions, assessments, and
+scoring are all based on these skills.
+So, it's crucial to choose the right
+ones.
+You can pick from the skills suggested
+by the AI or you can add your own. Make
+sure you provide an accurate
+representation of the required skills.
+For instance, you might specify two
+years of experience in AWS.
+Next, decide on the difficulty level of
+the questions, hard, moderate, etc. The
+title should already be populated. Begin
+by inputting the company's name and
+allow the AI to analyze your job
+description, subsequently suggesting
+relevant questions.
+You'll observe two categories of
+questions, standard and role-based.
+Standard questions are generally
+consistent across all interviews you
+create. These questions are typically
+objective, such as, "What's the notice
+period?" Feel free to personalize the
+options for each question. If there's a
+preferred answer, simply check the box
+next to it. This assists the AI in
+prioritizing applicants who provide
+these answers. We accommodate all types
+of questions, and you're certainly free
+to add your own standard ones.
+Coding questions will be coming soon. If
+you desire to remove any questions, you
+have the option to delete them and
+reorder the sequence. The AI will also
+generate role-based questions and it's
+aware of the preferred answer for these
+as well.
+At this stage, the system compares the
+user's responses with the ideal answers
+for a more accurate ranking. If you wish
+to modify this, you can change both the
+question and the ideal answer. You can
+tailor the questions to suit your needs.
+Once you've made the necessary changes,
+simply click on the create option. And
+there you have it. The interview is
+created. The first thing you'll notice
+is the unique public interview link.
+This link is exclusive to each interview
+based on the job description and other
+details you provided. If you're
+advertising your job on platforms like
+Indeed, Noy, etc., this link can serve
+as your application form link.
+Interested candidates can visit the
+provided link and fill in their details.
+From there, our AI system takes over. It
+begins by verifying the candidates's
+email address using an OTP. Once
+verified, the AI proceeds to review the
+resume. If you've enabled the résé based
+threshold, the AI will assess the ré
+score. If the candidate meets the
+threshold, they proceed to the video
+interview stage immediately.
+If they don't, they are informed that
+the position may not be a good fit for
+them.
+This process allows candidates to apply
+and be screened through resumes and
+video interviews automatically, saving
+you considerable time and effort. Once
+you start sharing the public link, all
+you need to do is visit the responses
+tab to view the candidates's responses.
+You can fully view structured answers
+and video recordings along with scores
+and resumes in the responses section.
+If you desire a detailed scoring, you
+can directly visit the section interview
+screenings where you'll find AI analyze
+scores. Let's use this individual as an
+example. She has completed a video
+interview. Here we can see her skills
+versus her scores.
+What is her interview score? What is her
+communication score? The AI also
+provides a comprehensive summary of the
+interview, noting observations,
+positives, and negatives. We've added an
+action button here allowing you to
+either select or reject the candidate.
+Second way is using ré screening. If you
+have a set of résumés that you want to
+screen against a job description, create
+an interview and upload all the résumés.
+Upon submission, the AI will commence
+the screening process. The unique aspect
+of this approach is that it doesn't
+solely rely on resumeé similarity.
+Instead, it evaluates candidates
+primarily on their skills, providing a
+realistic assessment of the candidates's
+experience in relation to the job
+description. The system conducts a
+comprehensive semantic analysis and
+assigns a ré score. The key
+consideration is the suitability of the
+resume and whether the AI recommends the
+profile for the next stage.
+For example, a candidate might have
+experience with some required skills and
+score higher yet the AI might not
+recommend them. This could be because
+despite the high score, their experience
+doesn't fully align with the overall job
+requirements. This is where the AI
+recommendations truly shine.
+Once you see this recommendation, you
+can decide whether to reject the
+candidate or advance them to the next
+round. If you decide to proceed, you can
+send them an interview link, which can
+be valid for 24 hours. Candidates can
+then submit their interview at their
+convenience. Once they've submitted
+their interview, you can initiate the
+interview screening process and start
+reviewing the summary. That's it. Hope
+you enjoyed the demo. Try recruiter.ai
+AI today to automate your screening
+interviews at scale.

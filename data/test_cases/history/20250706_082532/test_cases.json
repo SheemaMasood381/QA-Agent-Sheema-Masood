@@ -1,0 +1,156 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "locator": "input[name='jobDescription']",
+        "value": "JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "locator": "button[type='submit']"
+      }
+    ],
+    "expected_result": "AI suggests questions based on job description"
+  },
+  {
+    "title": "Create Interview with Enhanced JD Feature",
+    "steps": [
+      {
+        "action": "fill",
+        "locator": "input[name='jobTitle']",
+        "value": "2-year experienced JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "locator": "button[type='submit']"
+      }
+    ],
+    "expected_result": "AI generates a complete job description"
+  },
+  {
+    "title": "Select Skills from AI Recommendations",
+    "steps": [
+      {
+        "action": "wait_for_selector",
+        "locator": "ul.skills-list"
+      },
+      {
+        "action": "click",
+        "locator": "li.skill-item:has-text('AWS')"
+      }
+    ],
+    "expected_result": "Selected skills are displayed"
+  },
+  {
+    "title": "Set Difficulty Level of Questions",
+    "steps": [
+      {
+        "action": "select_option",
+        "locator": "select[name='difficultyLevel']",
+        "option": "Hard"
+      }
+    ],
+    "expected_result": "Difficulty level is set to Hard"
+  },
+  {
+    "title": "Personalize Standard Questions",
+    "steps": [
+      {
+        "action": "wait_for_selector",
+        "locator": "ul.questions-list"
+      },
+      {
+        "action": "click",
+        "locator": "li.question-item:has-text('What's the notice period?') checkbox"
+      }
+    ],
+    "expected_result": " Preferred answer is selected"
+  },
+  {
+    "title": "Create Interview with Customized Questions",
+    "steps": [
+      {
+        "action": "click",
+        "locator": "button[type='submit']"
+      }
+    ],
+    "expected_result": "Interview is created with unique public interview link"
+  },
+  {
+    "title": "View candidate responses",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response"
+    ],
+    "expected_result": "The candidate's structured answers, video recordings, scores, and resume are displayed"
+  },
+  {
+    "title": "View AI analyzed scores",
+    "steps": [
+      "Visit the interview screenings section",
+      "Click on a candidate's interview screening"
+    ],
+    "expected_result": "The AI analyzed scores are displayed"
+  },
+  {
+    "title": "View comprehensive summary of interview",
+    "steps": [
+      "Visit the interview screenings section",
+      "Click on a candidate's interview screening"
+    ],
+    "expected_result": "A comprehensive summary of the interview, including observations, positives, and negatives is displayed"
+  },
+  {
+    "title": "Select or reject candidate",
+    "steps": [
+      "Visit the interview screenings section",
+      "Click on a candidate's interview screening",
+      "Click the action button"
+    ],
+    "expected_result": "The option to select or reject the candidate is available"
+  },
+  {
+    "title": "Upload resumes for screening",
+    "steps": [
+      "Create an interview",
+      "Upload resumes"
+    ],
+    "expected_result": "The AI commences the screening process"
+  },
+  {
+    "title": "View resume screening results",
+    "steps": [
+      "Upload resumes for screening",
+      "Visit the screening results"
+    ],
+    "expected_result": "The AI assigns a resume score and provides a recommendation for each candidate"
+  },
+  {
+    "title": "View AI recommendation",
+    "steps": [
+      "View resume screening results",
+      "Click on a candidate's screening result"
+    ],
+    "expected_result": "The AI recommendation is displayed, indicating suitability for the next stage"
+  },
+  {
+    "title": "Send interview link to candidate",
+    "steps": [
+      "View resume screening results",
+      "Click on a candidate's screening result",
+      "Click the 'Send interview link' button"
+    ],
+    "expected_result": "The candidate receives an interview link that is valid for 24 hours"
+  },
+  {
+    "title": "Review interview summary",
+    "steps": [
+      "Send interview link to candidate",
+      "Wait for candidate to submit interview",
+      "Visit the interview screenings section"
+    ],
+    "expected_result": "The interview summary is available for review"
+  }
+]

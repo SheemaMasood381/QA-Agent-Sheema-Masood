@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "selector": "input[name='jobDescription']",
+        "value": "JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit']"
+      }
+    ],
+    "expected_result": "AI suggests questions based on the job description"
+  },
+  {
+    "title": "Customize Standard Questions",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "div.std-questions"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name='stdQuestion1']",
+        "value": "What's the notice period?"
+      },
+      {
+        "action": "click",
+        "selector": "checkbox[preferredAnswer='yes']"
+      }
+    ],
+    "expected_result": "Standard question is updated with preferred answer"
+  },
+  {
+    "title": "Customize Role-Based Questions",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "div.role-based-questions"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name='roleQuestion1']",
+        "value": "Explain your experience with AWS"
+      },
+      {
+        "action": "click",
+        "selector": "checkbox[idealAnswer='2 years experience']"
+      }
+    ],
+    "expected_result": "Role-based question is updated with ideal answer"
+  },
+  {
+    "title": "Create Interview with Customized Questions",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "button[type='create']"
+      }
+    ],
+    "expected_result": "Interview is created with unique public interview link"
+  },
+  {
+    "title": "Test Interview Link",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "a[href*='public-interview-link']"
+      }
+    ],
+    "expected_result": "Interview link redirects to application form"
+  },
+  {
+    "title": "Candidate Response View",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's response"
+    ],
+    "expected_result": "Candidate's structured answers, video recordings, scores, and resume are displayed"
+  },
+  {
+    "title": "Interview Screening Scores",
+    "steps": [
+      "Visit the interview screenings section",
+      "Click on a candidate's interview"
+    ],
+    "expected_result": "AI-analyzed scores, including interview score and communication score, are displayed"
+  },
+  {
+    "title": "Interview Summary",
+    "steps": [
+      "Visit the interview screenings section",
+      "Click on a candidate's interview"
+    ],
+    "expected_result": "Comprehensive summary of the interview, including observations, positives, and negatives, is displayed"
+  },
+  {
+    "title": "Select/Reject Candidate",
+    "steps": [
+      "Visit the interview screenings section",
+      "Click on a candidate's interview",
+      "Click on the action button"
+    ],
+    "expected_result": "Option to select or reject the candidate is available"
+  },
+  {
+    "title": "Resume Screening",
+    "steps": [
+      "Create an interview",
+      "Upload multiple resumes",
+      "Submit for screening"
+    ],
+    "expected_result": "AI commences the screening process and assigns a resume score based on skills and job description alignment"
+  },
+  {
+    "title": "AI Recommendations",
+    "steps": [
+      "Visit the resume screening results",
+      "Check the AI recommendations"
+    ],
+    "expected_result": "AI recommends or rejects candidates based on resume suitability and job description alignment"
+  },
+  {
+    "title": "Interview Link Sending",
+    "steps": [
+      "Decide to proceed with a candidate",
+      "Send an interview link to the candidate"
+    ],
+    "expected_result": "Candidate receives an interview link valid for 24 hours"
+  },
+  {
+    "title": "Initiate Interview Screening",
+    "steps": [
+      "Candidate submits their interview",
+      "Initiate the interview screening process"
+    ],
+    "expected_result": "Interview screening summary is available for review"
+  }
+]

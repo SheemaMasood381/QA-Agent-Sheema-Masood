@@ -1,0 +1,174 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "selector": "[name='jobDescription']",
+        "value": "Experienced JavaScript developer with AWS experience"
+      },
+      {
+        "action": "click",
+        "selector": "[type='submit']"
+      }
+    ],
+    "expected_result": {
+      "description": "AI suggests questions based on the job description",
+      "selector": ".ai-generated-questions"
+    }
+  },
+  {
+    "title": "Edit and Save Job Description",
+    "steps": [
+      {
+        "action": "fill",
+        "selector": "[name='jobDescription']",
+        "value": "Updated job description with 2 years of AWS experience"
+      },
+      {
+        "action": "click",
+        "selector": "[type='submit']"
+      }
+    ],
+    "expected_result": {
+      "description": "Job description is saved and skill recommendations are displayed",
+      "selector": ".skill-recommendations"
+    }
+  },
+  {
+    "title": "Select and Customize Questions",
+    "steps": [
+      {
+        "action": "check",
+        "selector": "[name='standardQuestions']"
+      },
+      {
+        "action": "check",
+        "selector": "[name='roleBasedQuestions']"
+      },
+      {
+        "action": "fill",
+        "selector": "[name='difficultyLevel']",
+        "value": "Moderate"
+      }
+    ],
+    "expected_result": {
+      "description": "Questions are populated and customizable",
+      "selector": ".question-list"
+    }
+  },
+  {
+    "title": "Create Interview",
+    "steps": [
+      {
+        "action": "click",
+        "selector": "[type='submit']"
+      }
+    ],
+    "expected_result": {
+      "description": "Interview is created with unique public interview link",
+      "selector": ".interview-link"
+    }
+  },
+  {
+    "title": "Verify Public Interview Link",
+    "steps": [
+      {
+        "action": "visit",
+        "url": "generated-interview-link"
+      }
+    ],
+    "expected_result": {
+      "description": "Public interview link is accessible and functional",
+      "selector": ".interview-form"
+    }
+  },
+  {
+    "title": "Test Video Interview Response",
+    "steps": [
+      {
+        "action": "visit",
+        "target": "responses tab"
+      },
+      {
+        "action": "assert",
+        "target": "structured answers and video recordings are displayed"
+      },
+      {
+        "action": "assert",
+        "target": "scores and resumes are displayed"
+      }
+    ],
+    "expected_result": "Video interview response is displayed with scores and resumes"
+  },
+  {
+    "title": "Test Interview Screenings",
+    "steps": [
+      {
+        "action": "visit",
+        "target": "interview screenings section"
+      },
+      {
+        "action": "assert",
+        "target": "AI analyzed scores are displayed"
+      }
+    ],
+    "expected_result": "AI analyzed scores are displayed in interview screenings section"
+  },
+  {
+    "title": "Test Candidate Scoring",
+    "steps": [
+      {
+        "action": "get text",
+        "target": "interview score"
+      },
+      {
+        "action": "get text",
+        "target": "communication score"
+      }
+    ],
+    "expected_result": "Interview score and communication score are displayed"
+  },
+  {
+    "title": "Test Resume Screening",
+    "steps": [
+      {
+        "action": "upload resumes",
+        "target": "r\u00e9sum\u00e9s input field"
+      },
+      {
+        "action": "submit",
+        "target": "upload resumes button"
+      },
+      {
+        "action": "assert",
+        "target": "r\u00e9 score is displayed"
+      }
+    ],
+    "expected_result": "Resume screening process is successful and r\u00e9 score is displayed"
+  },
+  {
+    "title": "Test AI Recommendations",
+    "steps": [
+      {
+        "action": "get text",
+        "target": "AI recommendation message"
+      }
+    ],
+    "expected_result": "AI recommendation message is displayed"
+  },
+  {
+    "title": "Test Interview Link Sending",
+    "steps": [
+      {
+        "action": "click",
+        "target": "send interview link button"
+      },
+      {
+        "action": "assert",
+        "target": "interview link is sent successfully"
+      }
+    ],
+    "expected_result": "Interview link is sent successfully to the candidate"
+  }
+]

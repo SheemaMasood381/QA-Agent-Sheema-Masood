@@ -1,0 +1,117 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      "Navigate to the create interview page",
+      "Enter a job description or use the enhanced JD feature to generate one",
+      "Save the job description",
+      "Verify that skill recommendations are displayed"
+    ],
+    "expected_result": "The AI extracts key skills from the job description and displays them"
+  },
+  {
+    "title": "Select Skills and Difficulty Level",
+    "steps": [
+      "Select skills from the AI suggestions or add custom skills",
+      "Choose the difficulty level of the questions (hard, moderate, etc.)"
+    ],
+    "expected_result": "The skills and difficulty level are saved and used for generating interview questions"
+  },
+  {
+    "title": "Generate Standard and Role-Based Questions",
+    "steps": [
+      "Verify that standard questions are generated",
+      "Verify that role-based questions are generated with ideal answers",
+      " Customize or delete questions as desired"
+    ],
+    "expected_result": "The AI generates questions based on the job description and skills"
+  },
+  {
+    "title": "Create Interview with AI Avatar (Advanced Plan)",
+    "steps": [
+      "Select an AI avatar (available for advanced plan users)",
+      "Verify that the lip syncing aligns with the script"
+    ],
+    "expected_result": "The AI avatar is selected and lip syncing is aligned with the script"
+  },
+  {
+    "title": "Create Interview and Generate Public Interview Link",
+    "steps": [
+      "Click the create option",
+      "Verify that a unique public interview link is generated"
+    ],
+    "expected_result": "The interview is created and a public interview link is generated"
+  },
+  {
+    "title": "Verify Candidate Application Flow",
+    "steps": [
+      "Enter the public interview link as an interested candidate",
+      "Fill in candidate details",
+      "Verify that the AI system verifies the email address using an OTP",
+      "Verify that the AI reviews the resume and assesses the r\u00e9 score (if enabled)",
+      "Verify that the candidate proceeds to the video interview stage if they meet the threshold"
+    ],
+    "expected_result": "The candidate application flow is successful and the AI system takes over"
+  },
+  {
+    "title": "Verify candidate's interview score is displayed",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview",
+      "Verify the interview score is displayed"
+    ],
+    "expected_result": "The interview score is displayed correctly"
+  },
+  {
+    "title": "Verify candidate's communication score is displayed",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview",
+      "Verify the communication score is displayed"
+    ],
+    "expected_result": "The communication score is displayed correctly"
+  },
+  {
+    "title": "Verify comprehensive summary of the interview is displayed",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview",
+      "Verify the comprehensive summary is displayed"
+    ],
+    "expected_result": "The comprehensive summary is displayed correctly, including observations, positives, and negatives"
+  },
+  {
+    "title": "Verify action buttons (select/reject) are displayed",
+    "steps": [
+      "Visit the responses tab",
+      "Click on a candidate's video interview",
+      "Verify the action buttons (select/reject) are displayed"
+    ],
+    "expected_result": "The action buttons (select/reject) are displayed correctly"
+  },
+  {
+    "title": "Verify r\u00e9 screening process works correctly",
+    "steps": [
+      "Create an interview and upload r\u00e9sum\u00e9s",
+      "Submit the r\u00e9sum\u00e9s for screening",
+      "Verify the AI assigns a r\u00e9 score and provides a recommendation"
+    ],
+    "expected_result": "The r\u00e9 screening process works correctly, assigning a r\u00e9 score and providing a recommendation"
+  },
+  {
+    "title": "Verify candidate can submit an interview at their convenience",
+    "steps": [
+      "Send an interview link to a candidate",
+      "Verify the candidate can submit their interview within 24 hours"
+    ],
+    "expected_result": "The candidate is able to submit their interview within 24 hours"
+  },
+  {
+    "title": "Verify interview screening process works correctly",
+    "steps": [
+      "Initiate the interview screening process",
+      "Verify the summary is displayed correctly"
+    ],
+    "expected_result": "The interview screening process works correctly, displaying the summary correctly"
+  }
+]

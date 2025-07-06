@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Create Interview with Job Description",
+    "steps": [
+      "Enter job description",
+      "Click Save",
+      "Verify skill recommendations are displayed",
+      "Select skills and set difficulty level",
+      "Click Create Interview"
+    ],
+    "expected_result": "Interview is created successfully"
+  },
+  {
+    "title": "Create Interview with Job Title and Enhanced JD",
+    "steps": [
+      "Enter job title (e.g. JavaScript developer with AWS experience)",
+      "Click Enhanced JD feature",
+      "Verify AI-generated job description is displayed",
+      "Edit and save job description",
+      "Verify skill recommendations are displayed",
+      "Select skills and set difficulty level",
+      "Click Create Interview"
+    ],
+    "expected_result": "Interview is created successfully"
+  },
+  {
+    "title": "Customize Interview Questions",
+    "steps": [
+      "Create an interview",
+      "Verify standard and role-based questions are displayed",
+      "Customize question options and ideal answers",
+      "Add new standard questions",
+      "Delete and reorder questions",
+      "Click Save"
+    ],
+    "expected_result": "Interview questions are customized successfully"
+  },
+  {
+    "title": "Create Interview with AI Avatar (Advanced Plan)",
+    "steps": [
+      "Create an interview (Advanced Plan user)",
+      "Verify AI avatar selection option is displayed",
+      "Select AI avatar",
+      "Verify AI avatar is applied to the interview"
+    ],
+    "expected_result": "AI avatar is applied to the interview successfully"
+  },
+  {
+    "title": "Edge Case: Invalid Job Description",
+    "steps": [
+      "Enter invalid job description (e.g. empty or special characters)",
+      "Click Save",
+      "Verify error message is displayed"
+    ],
+    "expected_result": "Error message is displayed for invalid job description",
+    "edge_cases": [
+      "Empty job description",
+      "Special characters in job description"
+    ]
+  },
+  {
+    "title": "Edge Case: Network Error",
+    "steps": [
+      "Create an interview",
+      "Simulate network error",
+      "Verify error message is displayed"
+    ],
+    "expected_result": "Error message is displayed for network error",
+    "edge_cases": [
+      "Network timeout",
+      "Server error"
+    ]
+  },
+  {
+    "title": "Cross-Browser: Create Interview",
+    "steps": [
+      "Create an interview on Chrome",
+      "Create an interview on Firefox",
+      "Create an interview on Safari (mobile)"
+    ],
+    "expected_result": "Interview is created successfully on all browsers"
+  },
+  {
+    "title": "Accessibility: Interview Creation",
+    "steps": [
+      "Use screen reader to navigate interview creation page",
+      "Verify all form fields and buttons are accessible"
+    ],
+    "expected_result": "All form fields and buttons are accessible",
+    "accessibility": "WCAG 2.1 compliance"
+  },
+  {
+    "title": "Performance: Interview Creation",
+    "steps": [
+      "Measure time taken to create an interview",
+      "Verify time taken is within acceptable limit (e.g. 5 seconds)"
+    ],
+    "expected_result": "Interview creation takes less than 5 seconds"
+  }
+]

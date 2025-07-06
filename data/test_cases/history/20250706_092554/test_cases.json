@@ -1,0 +1,317 @@
+[
+  {
+    "title": "### Job description input and skill recommendation",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Enter a job description or use the enhanced JD feature to generate one",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Click on the save button to save the job description",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Wait for the AI to analyze the job description and suggest relevant skills",
+    "steps": [],
+    "expected_result": "** The page displays a list of suggested skills extracted from the job description"
+  },
+  {
+    "title": "### Selecting skills and setting difficulty level",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Select the relevant skills from the suggested list or add custom skills",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Choose the difficulty level for the questions (hard, moderate, etc.)",
+    "steps": [],
+    "expected_result": "** The selected skills and difficulty level are saved and used for generating interview questions"
+  },
+  {
+    "title": "### Generating standard and role-based questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Wait for the AI to generate standard and role-based questions based on the job description and selected skills",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify that the questions are grouped into standard and role-based categories",
+    "steps": [],
+    "expected_result": "** The page displays a list of generated standard and role-based questions"
+  },
+  {
+    "title": "### Customizing and prioritizing questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Personalize the options for each question",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Check the box next to the preferred answer for each question",
+    "steps": [],
+    "expected_result": "** The preferred answers are saved and used for prioritizing applicants"
+  },
+  {
+    "title": "### Removing and reordering questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Delete unwanted questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Reorder the sequence of questions as desired",
+    "steps": [],
+    "expected_result": "** The updated question list is saved and used for the interview"
+  },
+  {
+    "title": "### Creating the interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Click on the create button to create the interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify that the unique public interview link is generated",
+    "steps": [],
+    "expected_result": "** The interview is created and the public link is displayed"
+  },
+  {
+    "title": "### Applicant flow - resume screening and video interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Enter the public interview link as the application form link on job posting platforms",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify that interested candidates can visit the link and fill in their details",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify that the AI system sends an OTP for email verification",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "4. Verify that the AI reviews the resume and assesses the r\u00e9 score if enabled",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "5. Verify that candidates meeting the r\u00e9 score threshold proceed to the video interview stage",
+    "steps": [],
+    "expected_result": "** The AI system successfully screens resumes and conducts video interviews"
+  },
+  {
+    "title": "### Verify candidate's interview score is displayed",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Login to the system",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Navigate to the responses tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Click on the candidate's video interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "4. Verify the interview score is displayed",
+    "steps": [],
+    "expected_result": "** Interview score is displayed correctly"
+  },
+  {
+    "title": "### Verify candidate's communication score is displayed",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Login to the system",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Navigate to the responses tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Click on the candidate's video interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "4. Verify the communication score is displayed",
+    "steps": [],
+    "expected_result": "** Communication score is displayed correctly"
+  },
+  {
+    "title": "### Verify AI provides a comprehensive summary of the interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Login to the system",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Navigate to the responses tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Click on the candidate's video interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "4. Verify the AI summary includes observations, positives, and negatives",
+    "steps": [],
+    "expected_result": "** AI summary includes all required information"
+  },
+  {
+    "title": "### Verify action buttons (select/reject) are available for the candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Login to the system",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Navigate to the responses tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Click on the candidate's video interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "4. Verify the select and reject buttons are displayed",
+    "steps": [],
+    "expected_result": "** Select and reject buttons are displayed correctly"
+  },
+  {
+    "title": "### Verify r\u00e9sum\u00e9 screening process works as expected",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Login to the system",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Create an interview and upload r\u00e9sum\u00e9s",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the AI commences the screening process",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "4. Verify r\u00e9sum\u00e9 scores are assigned based on skills and suitability",
+    "steps": [],
+    "expected_result": "** R\u00e9sum\u00e9 screening process works correctly"
+  },
+  {
+    "title": "### Verify AI recommendations are displayed for r\u00e9sum\u00e9 screening",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Login to the system",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Create an interview and upload r\u00e9sum\u00e9s",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the AI provides recommendations for each r\u00e9sum\u00e9",
+    "steps": [],
+    "expected_result": "** AI recommendations are displayed correctly"
+  },
+  {
+    "title": "### Verify candidate can submit an interview at their convenience",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Login to the system",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Send an interview link to the candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the candidate can submit the interview within 24 hours",
+    "steps": [],
+    "expected_result": "** Candidate can submit the interview successfully"
+  },
+  {
+    "title": "### Verify interview screening process can be initiated",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Login to the system",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Send an interview link to the candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the candidate submits the interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "4. Verify the interview screening process can be initiated",
+    "steps": [],
+    "expected_result": "** Interview screening process can be initiated successfully"
+  }
+]

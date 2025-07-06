@@ -1,0 +1,242 @@
+[
+  {
+    "title": "### Create Interview with Job Description",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'fill', 'selector': '#jobDescriptionInput', 'value': 'JavaScript Developer with AWS experience'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'selector': '#analyzeJobDescriptionButton'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'waitForSelector', 'selector': '#skillRecommendations'}",
+    "steps": [],
+    "expected_result": "** Skill recommendations are displayed"
+  },
+  {
+    "title": "### Select Skills from Recommendations",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'selector': '#selectSkillButton'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'selectOption', 'selector': '#skillSelect', 'option': 'AWS'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'click', 'selector': '#addSkillButton'}",
+    "steps": [],
+    "expected_result": "** Selected skills are added to the interview"
+  },
+  {
+    "title": "### Configure Question Difficulty",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'selectOption', 'selector': '#difficultySelect', 'option': 'Moderate'}",
+    "steps": [],
+    "expected_result": "** Difficulty level is updated"
+  },
+  {
+    "title": "### Add Company Name",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'fill', 'selector': '#companyNameInput', 'value': 'Test Company'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'selector': '#saveCompanyButton'}",
+    "steps": [],
+    "expected_result": "** Company name is saved"
+  },
+  {
+    "title": "### Generate Standard Questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'waitForSelector', 'selector': '#standardQuestions'}",
+    "steps": [],
+    "expected_result": "** Standard questions are generated"
+  },
+  {
+    "title": "### Customize Standard Question",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'selector': '#editStandardQuestionButton'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'fill', 'selector': '#standardQuestionInput', 'value': \"What's your current job title?\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'click', 'selector': '#saveStandardQuestionButton'}",
+    "steps": [],
+    "expected_result": "** Standard question is customized"
+  },
+  {
+    "title": "### Generate Role-Based Questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'waitForSelector', 'selector': '#roleBasedQuestions'}",
+    "steps": [],
+    "expected_result": "** Role-based questions are generated"
+  },
+  {
+    "title": "### Customize Role-Based Question",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'selector': '#editRoleBasedQuestionButton'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'fill', 'selector': '#roleBasedQuestionInput', 'value': 'How do you handle JavaScript errors?'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'click', 'selector': '#saveRoleBasedQuestionButton'}",
+    "steps": [],
+    "expected_result": "** Role-based question is customized"
+  },
+  {
+    "title": "### Create Interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'selector': '#createInterviewButton'}",
+    "steps": [],
+    "expected_result": "** Interview is created and public link is displayed"
+  },
+  {
+    "title": "### View Candidate Responses",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': 'Responses Tab'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'wait', 'target': 'Structured answers and video recordings are displayed'}",
+    "steps": [],
+    "expected_result": "** Structured answers and video recordings are displayed with scores and resumes"
+  },
+  {
+    "title": "### View Interview Score and Communication Score",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': 'Video Interview Response'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'wait', 'target': 'Interview score and communication score are displayed'}",
+    "steps": [],
+    "expected_result": "** Interview score and communication score are displayed correctly"
+  },
+  {
+    "title": "### View AI Analyze Scores",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': 'Interview Screenings Section'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'wait', 'target': 'AI analyze scores are displayed'}",
+    "steps": [],
+    "expected_result": "** AI analyze scores are displayed correctly"
+  },
+  {
+    "title": "### View Comprehensive Summary of the Interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': 'Video Interview Response'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'wait', 'target': 'Comprehensive summary of the interview is displayed'}",
+    "steps": [],
+    "expected_result": "** Comprehensive summary of the interview is displayed, including observations, positives, and negatives"
+  },
+  {
+    "title": "### Select or Reject Candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': 'Action Button'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'wait', 'target': 'Select or Reject options are displayed'}",
+    "steps": [],
+    "expected_result": "** Select or Reject options are displayed correctly"
+  },
+  {
+    "title": "### Resume Screening",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': 'Create Interview Button'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'upload', 'target': 'Resume files'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'wait', 'target': 'AI screening process is initiated'}",
+    "steps": [],
+    "expected_result": "** AI screening process is initiated and resume scores are assigned correctly"
+  },
+  {
+    "title": "### View AI Recommendations",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'wait', 'target': 'AI recommendations are displayed'}",
+    "steps": [],
+    "expected_result": "** AI recommendations are displayed correctly, including suitability of the resume and whether the AI recommends the profile for the next stage"
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "title": "### Create Interview with Job Description",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'fill', 'target': \"input[name='jobDescription']\", 'value': 'JavaScript developer with 2 years of AWS experience'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': \"button[type='submit']\"}",
+    "steps": [],
+    "expected_result": "** AI suggests questions based on job description"
+  },
+  {
+    "title": "### Customize Questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"button[data-test='edit-question']\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'fill', 'target': \"input[name='customQuestion']\", 'value': 'What is your experience with AWS?'}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. {'action': 'click', 'target': \"button[type='submit']\"}",
+    "steps": [],
+    "expected_result": "** Customized question is saved"
+  },
+  {
+    "title": "### Select AI Avatar (Advanced Plan)",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"button[data-test='select-ai-avatar']\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'select', 'target': \"select[name='aiAvatar']\", 'option': 'Lip Syncing Avatar'}",
+    "steps": [],
+    "expected_result": "** AI avatar is selected"
+  },
+  {
+    "title": "### Choose Skills from AI Suggestions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"checkbox[name='skill-aws']\"}",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. {'action': 'click', 'target': \"checkbox[name='skill-javascript']\"}",
+    "steps": [],
+    "expected_result": "** Selected skills are saved"
+  },
+  {
+    "title": "### Set Difficulty Level of Questions",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'select', 'target': \"select[name='question-difficulty']\", 'option': 'Moderate'}",
+    "steps": [],
+    "expected_result": "** Difficulty level of questions is set to Moderate"
+  },
+  {
+    "title": "### Create Interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. {'action': 'click', 'target': \"button[type='submit']\"}",
+    "steps": [],
+    "expected_result": "** Interview is created and public interview link is generated"
+  },
+  {
+    "title": "### Candidate Response Tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Visit the public link for the job posting",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify the responses tab is visible",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Click on the responses tab",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "4. Verify structured answers, video recordings, scores, and resumes are displayed",
+    "steps": [],
+    "expected_result": "** The responses tab displays the candidate's responses, scores, and resumes"
+  },
+  {
+    "title": "### Interview Screening Section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Visit the interview screenings section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify AI analyze scores are displayed",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the candidate's skills versus scores are displayed",
+    "steps": [],
+    "expected_result": "** The interview screenings section displays AI analyze scores and candidate's skills versus scores"
+  },
+  {
+    "title": "### Candidate Score",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Visit the interview screenings section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify the candidate's interview score is displayed",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the candidate's communication score is displayed",
+    "steps": [],
+    "expected_result": "** The candidate's interview score and communication score are displayed"
+  },
+  {
+    "title": "### AI Interview Summary",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Visit the interview screenings section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify the AI provides a comprehensive summary of the interview",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify observations, positives, and negatives are noted in the summary",
+    "steps": [],
+    "expected_result": "** The AI provides a comprehensive summary of the interview with observations, positives, and negatives"
+  },
+  {
+    "title": "### Action Button",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Visit the interview screenings section",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify an action button to select or reject the candidate is displayed",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Click on the action button and verify the corresponding action is taken",
+    "steps": [],
+    "expected_result": "** The action button allows the user to select or reject the candidate"
+  },
+  {
+    "title": "### R\u00e9 Screening",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Create an interview and upload resumes",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify the AI commences the screening process",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the system conducts a comprehensive semantic analysis and assigns a r\u00e9 score",
+    "steps": [],
+    "expected_result": "** The AI screens the resumes and assigns a r\u00e9 score based on skills and experience"
+  },
+  {
+    "title": "### R\u00e9 Score and Recommendation",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Verify the r\u00e9 score is displayed for each candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify the AI provides a recommendation for each candidate based on the r\u00e9 score and job requirements",
+    "steps": [],
+    "expected_result": "** The r\u00e9 score and AI recommendation are displayed for each candidate"
+  },
+  {
+    "title": "### Interview Invitation",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "1. Decide to proceed with a candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "2. Verify an interview link can be sent to the candidate",
+    "steps": [],
+    "expected_result": ""
+  },
+  {
+    "title": "3. Verify the interview link is valid for 24 hours",
+    "steps": [],
+    "expected_result": "** The candidate receives an interview link that is valid for 24 hours"
+  }
+]

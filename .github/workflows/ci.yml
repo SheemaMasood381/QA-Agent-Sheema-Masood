@@ -1,0 +1,39 @@
+name: Playwright tests
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install NPM dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Install Python requirements
+        run: python -m pip install -r requirements.txt
+
+      # Optional: Only run if VIDEO_URL is set, otherwise skip
+      - name: Ingest YouTube Transcript (optional)
+        if: env.VIDEO_URL != ''
+        run: python -m src.ingest.youtube_transcript $VIDEO_URL
+
+      - name: Generate Playwright test scripts from JSON
+        run: python -m src.playwright_gen.json_to_playwright
+
+      - name: Run Playwright tests
+        run: npx playwright test
+
+      - name: Upload results artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: results
+          path: data/results
